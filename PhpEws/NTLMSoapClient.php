@@ -92,9 +92,6 @@ class NTLMSoapClient extends SoapClient
 
         $response = curl_exec($this->ch);
 
-        // TODO: Add some real error handling.
-        // If the response if false than there was an error and we should throw
-        // an exception.
         if ($response === false) {
             throw new EWSException(
               'Curl error: ' . curl_error($this->ch),
@@ -136,12 +133,14 @@ class NTLMSoapClient extends SoapClient
      */
     public function setVerifyHost($verifyhost = 2)
     {
-    	if(!$verifyhost) {
-        	$this->verifyhost = 0;
-        } elseif($verifyhost !== 2) {
-	        $this->verifyhost = 1; // deprecated
-        } else {
-	        $this->verifyhost = 2; // recommend
+        if (!$verifyhost) {
+            $this->verifyhost = 0;
+        }
+        elseif ($verifyhost !== 2) {
+            $this->verifyhost = 1; // deprecated
+        }
+        else {
+            $this->verifyhost = 2; // recommend
         }
 
         return true;
