@@ -332,9 +332,17 @@ class EWSAutodiscover
                 case 2:
                     return ExchangeWebServices::VERSION_2010_SP2;
                     break;
+                case 3:
+                    return ExchangeWebServices::VERSION_2010_SP3;
+                    break;
                 default:
                     return ExchangeWebServices::VERSION_2010;
             }
+        } elseif ($majorversion == 15) {
+            if($minorversion === 0 && $buildversion >= 847) {
+            	return ExchangeWebServices::VERSION_2013_SP1; // released 02/24/2014
+            }
+            return ExchangeWebServices::VERSION_2013;
         }
 
         // Guess we didn't find a known version.
@@ -363,23 +371,25 @@ class EWSAutodiscover
         $version = null;
 
         // Pick out the host from the EXPR (Exchange RPC over HTTP).
-        foreach ($this->discovered['Account']['Protocol'] as $protocol) {
-            if (
-                ($protocol['Type'] == 'EXCH' || $protocol['Type'] == 'EXPR')
-                && isset($protocol['ServerVersion'])
-            ) {
-                if ($version == null) {
-                    $sv = $this->parseServerVersion($protocol['ServerVersion']);
-                    if ($sv !== false) {
-                        $version = $sv;
-                    }
-                }
-            }
+		if (isset($this->discovered['Account']['Protocol'])) {
+        	foreach ($this->discovered['Account']['Protocol'] as $protocol) {
+	            if (
+	                ($protocol['Type'] == 'EXCH' || $protocol['Type'] == 'EXPR')
+	                && isset($protocol['ServerVersion'])
+	            ) {
+	                if ($version == null) {
+	                    $sv = $this->parseServerVersion($protocol['ServerVersion']);
+	                    if ($sv !== false) {
+	                        $version = $sv;
+	                    }
+	                }
+	            }
 
-            if ($protocol['Type'] == 'EXPR' && isset($protocol['Server'])) {
-                $server = $protocol['Server'];
-            }
-        }
+	            if ($protocol['Type'] == 'EXPR' && isset($protocol['Server'])) {
+	                $server = $protocol['Server'];
+	            }
+	        }
+		}
 
         if ($server) {
             if ($version === null) {
@@ -576,16 +586,16 @@ class EWSAutodiscover
             CURLOPT_HTTPAUTH        => CURLAUTH_NTLM,
             CURLOPT_CUSTOMREQUEST   => 'POST',
             CURLOPT_POSTFIELDS      => $this->getAutoDiscoverRequest(),
-            CURLOPT_RETURNTRANSFER  => true,
+            CURLOPT_RETURNTRANSFER  => 1,
             CURLOPT_USERPWD         => $this->username.':'.$this->password,
             CURLOPT_TIMEOUT         => $timeout,
             CURLOPT_CONNECTTIMEOUT  => $this->connection_timeout,
-            CURLOPT_FOLLOWLOCATION  => true,
-            CURLOPT_HEADER          => false,
+            CURLOPT_FOLLOWLOCATION  => 1,
+            CURLOPT_HEADER          => 0,
             CURLOPT_HEADERFUNCTION  => array($this, 'readHeaders'),
             CURLOPT_IPRESOLVE       => CURL_IPRESOLVE_V4,
-            CURLOPT_SSL_VERIFYPEER  => true,
-            CURLOPT_SSL_VERIFYHOST  => true,
+            CURLOPT_SSL_VERIFYPEER  => 1,
+            CURLOPT_SSL_VERIFYHOST  => 2, // can be false/0 OR true/1 OR 2, only 2 is secure!
         );
 
         // Set the appropriate content-type.
