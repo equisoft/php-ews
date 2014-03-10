@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the NonEmptyArrayOfAttendeesType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains NonEmptyArrayOfAttendeesType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the NonEmptyArrayOfAttendeesType type
+ * Represents attendees who are not required to attend a meeting.
+ *
+ * @package php-ews\Types
  */
 class NonEmptyArrayOfAttendeesType extends EWSType
 {
     /**
      * Attendee property
+     *
+     * @since Exchange 2007
      *
      * @var EWSType_AttendeeType
      */

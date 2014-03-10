@@ -1,20 +1,23 @@
 <?php
 /**
- * Definition of the NonEmptyArrayOfInternetHeadersType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains NonEmptyArrayOfInternetHeadersType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the NonEmptyArrayOfInternetHeadersType type
+ * Represents a collection of some of the Internet message headers that are
+ * contained in an item in a mailbox.
+ *
+ * @package php-ews\Types
  */
 class NonEmptyArrayOfInternetHeadersType extends EWSType
 {
     /**
-     * InternetMessageHeader property
+     * Represents the Internet message header for a given header within the
+     * headers collection.
+     *
+     * @since Exchange 2007
      *
      * @var EWSType_InternetHeaderType
      */

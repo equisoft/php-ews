@@ -1,32 +1,37 @@
 <?php
 /**
- * Definition of the KindType type.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains KindType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the KindType type.
+ * Defines the kind of a transition.
+ *
+ * @package php-ews\Enumerations
+ *
+ * @todo Rename to EWSType_TransitionKindType
  */
 class KindType extends EWSType
 {
     /**
-     * Specifies that the time zone transition target is a time zone period.
-     *
-     * @var string
-     */
-    const PERIOD = 'Period';
-
-    /**
      * Specifies that the time zone transition target is a group of time zone
      * transitions.
+     *
+     * @since Exchange 2010
      *
      * @var string
      */
     const GROUP = 'Group';
+
+    /**
+     * Specifies that the time zone transition target is a time zone period.
+     *
+     * @since Exchange 2010
+     *
+     * @var string
+     */
+    const PERIOD = 'Period';
 
     /**
      * Element value.

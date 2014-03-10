@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the SingleRecipientType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains SingleRecipientType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the SingleRecipientType type
+ * Identifies the delegate in a delegate access scenario.
+ *
+ * @package php-ews\Types
  */
 class SingleRecipientType extends EWSType
 {
     /**
-     * Mailbox property
+     * Identifies a mail-enabled Active Directory directory service object.
+     *
+     * @since Exchange 2007
      *
      * @var EWSType_EmailAddressType
      */

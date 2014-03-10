@@ -1,20 +1,21 @@
 <?php
 /**
- * The Constant element identifies a constant value in a restriction.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ConstantValueType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Specifies the value to compare in the restriction.
+ * Identifies a constant value in a restriction.
+ *
+ * @package php-ews\Types
  */
 class ConstantValueType extends EWSType
 {
     /**
      * Specifies the value to compare in the restriction.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */

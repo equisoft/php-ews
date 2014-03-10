@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the ResponseTypeType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ResponseTypeType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ResponseTypeType type
+ * Identifies the type of a response that is received.
+ *
+ * @package php-ews\Enumerations
  */
 class ResponseTypeType extends EWSType
 {
     /**
      * Response type indicating that a request has been accepted.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -23,12 +24,16 @@ class ResponseTypeType extends EWSType
     /**
      * Response type indicating that a request has been declined.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const DECLNE = 'Decline';
 
     /**
      * Response type indicating that no reponse has been received.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -37,12 +42,16 @@ class ResponseTypeType extends EWSType
     /**
      * Response type indicating that the attendee is the organizer.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const ORGANIZER = 'Organizer';
 
     /**
      * Response type indicating that a request has been tentatively accepted.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -51,12 +60,14 @@ class ResponseTypeType extends EWSType
     /**
      * Response type indicating that the reponse is unknown.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const UNKNOWN = 'Unknown';
 
     /**
-     * Value of the element.
+     * Element value.
      *
      * @var string
      */

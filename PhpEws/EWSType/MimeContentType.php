@@ -1,20 +1,22 @@
 <?php
 /**
- * Definition of the MimeContentType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains MimeContentType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the MimeContentType type
+ * Represents the native Multipurpose Internet Mail Extensions (MIME) stream of
+ * an object that is represented in base64Binary format.
+ *
+ * @package php-ews\Types
  */
 class MimeContentType extends EWSType
 {
     /**
      * A text value that represents a base64Binary MIME stream.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -23,6 +25,8 @@ class MimeContentType extends EWSType
     /**
      * The International Standards Organization (ISO) name of the character set
      * used in the MIME message.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */

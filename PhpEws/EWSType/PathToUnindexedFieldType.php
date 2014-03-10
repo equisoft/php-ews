@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the PathToUnindexedFieldType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains PathToUnindexedFieldType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the PathToUnindexedFieldType type
+ * Identifies frequently referenced properties by URI.
+ *
+ * @package php-ews\Types
  */
 class PathToUnindexedFieldType extends EWSType
 {
     /**
-     * FieldURI property
+     * Identifies the URI of the property.
+     *
+     * @since Exchnage 2007
      *
      * @var EWSType_UnindexedFieldURIType
      */

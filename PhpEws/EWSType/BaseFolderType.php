@@ -72,6 +72,8 @@ class BaseFolderType extends EWSType
     /**
      * EffectiveRights property
      *
+     * @since Exchange 2007 SP1
+     *
      * @var EWSType_EffectiveRightsType
      */
     public $EffectiveRights;

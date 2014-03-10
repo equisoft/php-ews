@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the ArrayOfDelegateUserType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ArrayOfDelegateUserType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ArrayOfDelegateUserType type
+ * Contains the identities of delegates to add to or update in a mailbox.
+ *
+ * @package php-ews\Types
  */
 class ArrayOfDelegateUserType extends EWSType
 {
     /**
-     * DelegateUser property
+     * Identifies a single delegate to add to or update in a mailbox.
+     *
+     * @since Exchnage 2007 SP1
      *
      * @var EWSType_DelegateUserType
      */

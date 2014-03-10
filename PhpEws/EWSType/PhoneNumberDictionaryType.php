@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the PhoneNumberDictionaryType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains PhoneNumberDictionaryType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the PhoneNumberDictionaryType type
+ * Represents a collection of telephone numbers for a contact.
+ *
+ * @package php-ews\Types
  */
 class PhoneNumberDictionaryType extends EWSType
 {
     /**
-     * Entry property
+     * Represents a telephone number for a contact.
+     *
+     * @since Exchange 2007
      *
      * @var EWSType_PhoneNumberDictionaryEntryType
      */

@@ -1,27 +1,31 @@
 <?php
 /**
- * Definition of the InternetHeaderType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains InternetHeaderType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the InternetHeaderType type
+ * Represents the Internet message header for a given header within a headers
+ * collection.
+ *
+ * @package php-ews\Types
  */
 class InternetHeaderType extends EWSType
 {
     /**
-     * _ property
+     * The value of the header.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
     public $_;
 
     /**
-     * HeaderName property
+     * Identifies the header name.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */

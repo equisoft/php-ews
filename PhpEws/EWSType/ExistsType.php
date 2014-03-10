@@ -1,21 +1,31 @@
 <?php
 /**
- * The Exists element represents a search expression that returns true if the
- * supplied property exists on an item.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ExistsType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ExistsType type.
+ * Represents a search expression that returns true if the supplied property
+ * exists on an item.
+ *
+ * @package php-ews\Types
  */
 class ExistsType extends EWSType
 {
     /**
+     * Identifies MAPI properties.
+     *
+     * @since Exchange 2007
+     *
+     * @var EWSType_PathToExtendedFieldType
+     */
+    public $ExtendedFieldURI;
+
+    /**
      * Identifies frequently referenced properties by URI.
+     *
+     * @since Exchange 2007
      *
      * @var EWSType_PathToUnindexedFieldType
      */
@@ -24,14 +34,9 @@ class ExistsType extends EWSType
     /**
      * Identifies individual members of a dictionary.
      *
+     * @since Exchange 2007
+     *
      * @var EWSType_PathToIndexedFieldType
      */
     public $IndexedFieldURI;
-
-    /**
-     * Identifies MAPI properties.
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
 }

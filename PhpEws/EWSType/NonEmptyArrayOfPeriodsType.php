@@ -1,22 +1,23 @@
 <?php
 /**
- * The Period element defines the name, time offset, and unique identifier for a
- * specific stage of the time zone.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains NonEmptyArrayOfPeriodsType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the NonEmptyArrayOfPeriodsType type.
+ * Represents an array of periods that define the time offset at different
+ * stages of a time zone.
+ *
+ * @package php-ews\Types
  */
 class NonEmptyArrayOfPeriodsType extends EWSType
 {
     /**
-     * The name, time offset, and unique identifier for a specific stage of the
+     * The name, time offset, and unique identifier for a specific stage of a
      * time zone.
+     *
+     * @since Exchange 2010
      *
      * @var EWSType_PeriodType
      */

@@ -1,22 +1,41 @@
 <?php
 /**
- * Definition of the NonEmptyArrayOfPathsToElementType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains NonEmptyArrayOfPathsToElementType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
  * Definition of the NonEmptyArrayOfPathsToElementType type
+ *
+ * @package php-ews\Types
  */
 class NonEmptyArrayOfPathsToElementType extends EWSType
 {
     /**
-     * Path property
+     * Identifies extended MAPI properties to get, set, or create.
      *
-     * @var EWSType_BasePathToElementType
+     * @since Exchange 2007
+     *
+     * @var EWSType_PathToExtendedFieldType
      */
-    public $Path;
+    public $ExtendedFieldURI;
+
+    /**
+     * Identifies frequently referenced properties by URI.
+     *
+     * @since Exchange 2007
+     *
+     * @var EWSType_PathToUnindexedFieldType
+     */
+    public $FieldURI;
+
+    /**
+     * Identifies frequently referenced dictionary properties by URI.
+     *
+     * @since Exchange 2007
+     *
+     * @var EWSType_PathToIndexedFieldType
+     */
+    public $IndexedFieldURI;
 }

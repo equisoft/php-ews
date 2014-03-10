@@ -1,41 +1,50 @@
 <?php
 /**
- * Definition of the TimeZoneType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains TimeZoneType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the TimeZoneType type
+ * Represents a time zone.
+ *
+ * @package php-ews\Types
  */
 class TimeZoneType extends EWSType
 {
     /**
-     * BaseOffset property
+     * Represents the hourly offset from UTC for the current time zone.
      *
-     * @var EWSType_duration
+     * @since Exchange 2007
+     *
+     * @var integer
      */
     public $BaseOffset;
 
     /**
-     * Standard property
+     * Represents the date and time when the time changes from standard time to
+     * daylight saving time.
      *
-     * @var EWSType_TimeChangeType
-     */
-    public $Standard;
-
-    /**
-     * Daylight property
+     * @since Exchange 2007
      *
      * @var EWSType_TimeChangeType
      */
     public $Daylight;
 
     /**
-     * TimeZoneName property
+     * Represents the date and time when the time changes from daylight saving
+     * time to standard time.
+     *
+     * @since Exchange 2007
+     *
+     * @var EWSType_TimeChangeType
+     */
+    public $Standard;
+
+    /**
+     * The name of the time zone.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */

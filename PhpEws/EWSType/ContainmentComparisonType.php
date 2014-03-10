@@ -1,20 +1,21 @@
 <?php
 /**
- * Determines whether the search ignores cases and spaces.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ContainmentComparisonType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ContainmentComparisonType type.
+ * Determines whether a search ignores cases and spaces.
+ *
+ * @package php-ews\Enumerations
  */
 class ContainmentComparisonType extends EWSType
 {
     /**
      * The comparison must be exact.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -23,12 +24,16 @@ class ContainmentComparisonType extends EWSType
     /**
      * The comparison ignores casing.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const IGNORE_CASE = 'IgnoreCase';
 
     /**
-     * The comparison ignores non-spacing characters..
+     * The comparison ignores non-spacing characters.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -37,6 +42,8 @@ class ContainmentComparisonType extends EWSType
     /**
      * The comparison ignores casing and non-spacing characters.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const IGNORE_NON_SPACING_CHARS = 'IgnoreNonSpacingCharacters';
@@ -44,7 +51,8 @@ class ContainmentComparisonType extends EWSType
     /**
      * To be removed.
      *
-     * @deprecated
+     * @since Exchange 2007
+     * @deprecated Exchange 2007
      *
      * @var string
      */
@@ -53,7 +61,8 @@ class ContainmentComparisonType extends EWSType
     /**
      * To be removed.
      *
-     * @deprecated
+     * @since Exchange 2007
+     * @deprecated Exchange 2007
      *
      * @var string
      */
@@ -62,7 +71,8 @@ class ContainmentComparisonType extends EWSType
     /**
      * To be removed.
      *
-     * @deprecated
+     * @since Exchange 2007
+     * @deprecated Exchange 2007
      *
      * @var string
      */
@@ -71,7 +81,8 @@ class ContainmentComparisonType extends EWSType
     /**
      * To be removed.
      *
-     * @deprecated
+     * @since Exchange 2007
+     * @deprecated Exchange 2007
      *
      * @var string
      */

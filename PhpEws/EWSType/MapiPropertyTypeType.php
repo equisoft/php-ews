@@ -1,22 +1,22 @@
 <?php
 /**
- * Represents the property type of a property tag. This corresponds to the least
- * significant word in a property tag.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains MapiPropertyTypeType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the MapiPropertyTypeType type.
+ * Represents the property type of a property tag.
+ *
+ * @package php-ews\Enumerations
  */
 class MapiPropertyTypeType extends EWSType
 {
     /**
      * A double value that is interpreted as a date and time. The integer part
      * is the date and the fraction part is the time.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -25,12 +25,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * An array of double values that are interpreted as a date and time.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const APPLICATION_TIME_ARRAY = 'ApplicationTimeArray';
 
     /**
      * A Base64-encoded binary value.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -39,12 +43,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * An array of Base64-encoded binary values.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const BINARY_ARRAY = 'BinaryArray';
 
     /**
      * A Boolean true or false.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -53,12 +61,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * A GUID string.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const CLSID = 'CLSID';
 
     /**
      * An array of GUID strings.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -67,12 +79,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * A 64-bit integer that is interpreted as the number of cents.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const CURRENCY = 'Currency';
 
     /**
      * An array of 64-bit integers that are interpreted as the number of cents.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -81,12 +97,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * A 64-bit floating-point value.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const DOUBLE = 'Double';
 
     /**
      * An array of 64-bit floating-point values.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -98,12 +118,16 @@ class MapiPropertyTypeType extends EWSType
      * Not used for restrictions or for getting/setting values. This exists only
      * for reporting.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const ERROR = 'Error';
 
     /**
      * A 32-bit floating-point value.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -112,12 +136,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * An array of 32-bit floating-point values.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const FLOAT_ARRAY = 'FloatArray';
 
     /**
      * A signed 32-bit (Int32) integer.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -126,6 +154,8 @@ class MapiPropertyTypeType extends EWSType
     /**
      * An array of signed 32-bit (Int32) integers.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const INTEGER_ARRAY = 'IntegerArray';
@@ -133,12 +163,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * A signed or unsigned 64-bit (Int64) integer.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const LONG = 'Long';
 
     /**
      * An array of signed or unsigned 64-bit (Int64) integers.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -150,6 +184,8 @@ class MapiPropertyTypeType extends EWSType
      * Not used for restrictions or for getting/setting values. This exists only
      * for reporting.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const NULL_TYPE = 'Null';
@@ -159,6 +195,8 @@ class MapiPropertyTypeType extends EWSType
      *
      * Not used for restrictions or for getting/setting values. This exists only
      * for reporting.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -170,12 +208,16 @@ class MapiPropertyTypeType extends EWSType
      * Not used for restrictions or for getting/setting values. This exists only
      * for reporting.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const OBJECT_ARRAY = 'ObjectArray';
 
     /**
      * A signed 16-bit integer.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -184,12 +226,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * An array of signed 16-bit integers.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const SHORT_ARRAY = 'ShortArray';
 
     /**
      * A 64-bit integer data and time value in the form of a FILETIME structure.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -199,6 +245,8 @@ class MapiPropertyTypeType extends EWSType
      * An array of 64-bit integer data and time values in the form of a FILETIME
      * structure.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const SYSTEM_TIME_ARRAY = 'SystemTimeArray';
@@ -206,12 +254,16 @@ class MapiPropertyTypeType extends EWSType
     /**
      * A Unicode string.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const STRING = 'String';
 
     /**
      * An array of Unicode strings.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */

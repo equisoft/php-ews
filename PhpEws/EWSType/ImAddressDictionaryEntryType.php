@@ -1,27 +1,30 @@
 <?php
 /**
- * Definition of the ImAddressDictionaryEntryType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ImAddressDictionaryEntryType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ImAddressDictionaryEntryType type
+ * Represents an instant messaging (IM) address for a contact.
+ *
+ * @package php-ews\Types
  */
 class ImAddressDictionaryEntryType extends EWSType
 {
     /**
-     * _ property
+     * Represents the IM address.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
     public $_;
 
     /**
-     * Key property
+     * Identifies the IM address.
+     *
+     * @since Exchange 2007
      *
      * @var EWSType_ImAddressKeyType
      */

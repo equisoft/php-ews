@@ -1,28 +1,32 @@
 <?php
 /**
- * Identifies the boundaries of a search.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ContainmentModeType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ContainmentModeType type.
+ * Identifies the boundaries of a search.
+ *
+ * @package php-ews\Enumerations
  */
 class ContainmentModeType extends EWSType
 {
     /**
      * The comparison is between an exact phrase in the string and the constant.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const EXACT_PHRASE = 'ExactPhrase';
 
     /**
-     * The comparison is between the full string and the constant. The property
-     * value and the supplied constant are precisely the same.
+     * The comparison is between the full string and the constant.
+     *
+     * The property value and the supplied constant are precisely the same.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -32,6 +36,8 @@ class ContainmentModeType extends EWSType
      * The comparison is between a prefix on individual words in the string and
      * the constant.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const PREFIX_ON_WORDS = 'PrefixOnWords';
@@ -39,12 +45,16 @@ class ContainmentModeType extends EWSType
     /**
      * The comparison is between the string prefix and the constant.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const PREFIXED = 'Prefixed';
 
     /**
      * The comparison is between a substring of the string and the constant.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */

@@ -1,22 +1,26 @@
 <?php
 /**
- * Definition of the DeletedOccurrenceInfoType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains DeletedOccurrenceInfoType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the DeletedOccurrenceInfoType type
+ * Represents a deleted occurrence of a recurring calendar item.
+ *
+ * @package php-ews\Types
  */
 class DeletedOccurrenceInfoType extends EWSType
 {
     /**
-     * Start property
+     * Represents the start time of a deleted occurrence of a recurring calendar
+     * item.
      *
-     * @var EWSType_dateTime
+     * @since Exchange 2007
+     *
+     * @var string
+     *
+     * @todo Make a DateTime object.
      */
     public $Start;
 }

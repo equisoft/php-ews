@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the PhysicalAddressIndexType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains PhysicalAddressIndexType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the PhysicalAddressIndexType type
+ * Represents the display types for physical addresses.
+ *
+ * @package php-ews\Enumerations
  */
 class PhysicalAddressIndexType extends EWSType
 {
     /**
      * Address index for business.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -23,12 +24,16 @@ class PhysicalAddressIndexType extends EWSType
     /**
      * Address index for home.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const HOME = 'Home';
 
     /**
      * Address index for none.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
@@ -37,7 +42,26 @@ class PhysicalAddressIndexType extends EWSType
     /**
      * Address index for other.
      *
+     * @since Exchange 2007
+     *
      * @var string
      */
     const OTHER = 'Other';
+
+    /**
+     * Element value.
+     *
+     * @var string
+     */
+    public $_;
+
+    /**
+     * Returns the value of this object as a string.
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+      return $this->_;
+    }
 }

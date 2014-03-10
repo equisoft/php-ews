@@ -1,20 +1,21 @@
 <?php
 /**
- * Definition of the EmailAddressDictionaryType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains EmailAddressDictionaryType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the EmailAddressDictionaryType type
+ * Represents a collection of e-mail addresses for a contact.
+ *
+ * @package php-ews\Types
  */
 class EmailAddressDictionaryType extends EWSType
 {
     /**
-     * Entry property
+     * Represents a single e-mail address for a contact.
+     *
+     * @since Exchange 2007
      *
      * @var EWSType_EmailAddressDictionaryEntryType
      */

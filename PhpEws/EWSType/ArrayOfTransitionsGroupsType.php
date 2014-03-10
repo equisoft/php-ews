@@ -1,21 +1,21 @@
 <?php
 /**
- * The TransitionsGroups element represents an array of time zone transition
- * groups.
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ArrayOfTransitionsGroupsType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ArrayOfTransitionsGroupsType type.
+ * Represents an array of time zone transition groups.
+ *
+ * @package php-ews\Types
  */
 class ArrayOfTransitionsGroupsType extends EWSType
 {
     /**
      * Represents an array of time zone transitions.
+     *
+     * @since Exchange 2010
      *
      * @var EWSType_ArrayOfTransitionsType
      */

@@ -1,29 +1,43 @@
 <?php
 /**
- * Definition of the AttachmentIdType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains AttachmentIdType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the AttachmentIdType type
+ * Identifies an item or file attachment.
+ *
+ * @package php-ews\Types
  */
 class AttachmentIdType extends EWSType
 {
     /**
-     * RootItemId property
+     * Identifies the unique identifier of the attachment.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
-    public $RootItemId;
+    public $Id;
 
     /**
-     * RootItemChangeKey property
+     * Identifies the unique identifier of the root store item to which the
+     * attachment is attached.
+     *
+     * @since Exchange 2007
      *
      * @var string
      */
     public $RootItemChangeKey;
+
+    /**
+     * Identifies the change key of the root store item to which the attachment
+     * is attached.
+     *
+     * @since Exchange 2007
+     *
+     * @var string
+     */
+    public $RootItemId;
 }

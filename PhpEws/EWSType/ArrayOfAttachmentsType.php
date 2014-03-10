@@ -1,29 +1,33 @@
 <?php
 /**
- * Definition of the ArrayOfAttachmentsType type
- *
- * @package php-ews
- * @subpackage Types
+ * Contains ArrayOfAttachmentsType.
  */
 
 namespace PhpEws\EWSType;
 
 /**
- * Definition of the ArrayOfAttachmentsType type
+ * Contains the items or files that are attached to an item in the Exchange
+ * store.
+ *
+ * @package php-ews\Types
  */
 class ArrayOfAttachmentsType extends EWSType
 {
     /**
-     * ItemAttachment property
+     * Represents a file that is attached to an item in the Exchange store.
      *
-     * @var EWSType_ItemAttachmentType
-     */
-    public $ItemAttachment;
-
-    /**
-     * FileAttachment property
+     * @since Exchange 2007
      *
      * @var EWSType_FileAttachmentType
      */
     public $FileAttachment;
+
+    /**
+     * Represents an Exchange item that is attached to another Exchange item.
+     *
+     * @since Exchange 2007
+     *
+     * @var EWSType_ItemAttachmentType
+     */
+    public $ItemAttachment;
 }
