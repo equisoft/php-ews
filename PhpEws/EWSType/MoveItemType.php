@@ -6,21 +6,16 @@
  * @subpackage Types
  */
 
+namespace PhpEws\EWSType;
+
 /**
  * Definition of the MoveItemType type
  */
-class EWSType_MoveItemType extends EWSType
+class MoveItemType extends EWSType
 {
     /**
-     * ToFolderId property
-     *
-     * @var EWSType_TargetFolderIdType
-     */
-    public $ToFolderId;
-
-    /**
      * DistinguishedFolderId property
-     * 
+     *
      * @var EWSType_DistinguishedFolderIdType
      */
     public $DistinguishedFolderId;
@@ -31,4 +26,11 @@ class EWSType_MoveItemType extends EWSType
      * @var EWSType_NonEmptyArrayOfBaseItemIdsType
      */
     public $ItemIds;
+
+    /**
+     * ToFolderId property
+     *
+     * @var EWSType_TargetFolderIdType
+     */
+    public $ToFolderId;
 }

@@ -9,6 +9,7 @@
 namespace PhpEws;
 
 use Exception;
+
 /**
  * Exception class for Exchange Web Services
  */
