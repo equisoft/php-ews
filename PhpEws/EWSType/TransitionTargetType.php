@@ -20,7 +20,7 @@ class TransitionTargetType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_KindType
+     * @var KindType
      */
     public $Kind;
 

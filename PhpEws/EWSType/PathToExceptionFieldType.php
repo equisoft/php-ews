@@ -16,7 +16,7 @@ class PathToExceptionFieldType extends EWSType
     /**
      * FieldURI property
      *
-     * @var EWSType_ExceptionPropertyURIType
+     * @var ExceptionPropertyURIType
      */
     public $FieldURI;
 }

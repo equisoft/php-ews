@@ -42,7 +42,7 @@ class TimeChangeType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RelativeYearlyRecurrencePatternType
+     * @var RelativeYearlyRecurrencePatternType
      */
     public $RelativeYearlyRecurrence;
 

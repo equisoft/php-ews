@@ -16,7 +16,7 @@ class UpdateFolderType extends EWSType
     /**
      * FolderChanges property
      *
-     * @var EWSType_NonEmptyArrayOfFolderChangesType
+     * @var NonEmptyArrayOfFolderChangesType
      */
     public $FolderChanges;
 }

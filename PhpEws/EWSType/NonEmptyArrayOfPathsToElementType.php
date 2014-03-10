@@ -17,7 +17,7 @@ class NonEmptyArrayOfPathsToElementType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToExtendedFieldType
+     * @var PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -26,7 +26,7 @@ class NonEmptyArrayOfPathsToElementType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -35,7 +35,7 @@ class NonEmptyArrayOfPathsToElementType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToIndexedFieldType
+     * @var PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 }

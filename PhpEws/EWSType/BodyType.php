@@ -26,7 +26,7 @@ class BodyType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyTypeType
+     * @var BodyTypeType
      */
     public $BodyType;
 

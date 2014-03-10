@@ -19,7 +19,7 @@ class IsLessThanType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToExtendedFieldType
+     * @var PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -28,7 +28,7 @@ class IsLessThanType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -38,7 +38,7 @@ class IsLessThanType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FieldURIOrConstantType
+     * @var FieldURIOrConstantType
      */
     public $FieldURIOrConstant;
 
@@ -47,7 +47,7 @@ class IsLessThanType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToIndexedFieldType
+     * @var PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 }

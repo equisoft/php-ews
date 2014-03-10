@@ -16,7 +16,7 @@ class NonEmptyArrayOfGroupIdentifiersType extends EWSType
     /**
      * GroupIdentifier property
      *
-     * @var EWSType_SidAndAttributesType
+     * @var SidAndAttributesType
      */
     public $GroupIdentifier;
 }

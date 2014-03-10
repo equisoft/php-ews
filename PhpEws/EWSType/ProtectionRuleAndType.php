@@ -18,7 +18,7 @@ class ProtectionRuleAndType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ProtectionRuleAllInternalType
+     * @var ProtectionRuleAllInternalType
      */
     public $AllInternal;
 
@@ -27,7 +27,7 @@ class ProtectionRuleAndType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ProtectionRuleAndType
+     * @var ProtectionRuleAndType
      */
     public $And;
 
@@ -38,7 +38,7 @@ class ProtectionRuleAndType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ProtectionRuleRecipientIsType
+     * @var ProtectionRuleRecipientIsType
      */
     public $RecipientIs;
 
@@ -48,7 +48,7 @@ class ProtectionRuleAndType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ProtectionRuleSenderDepartmentsType
+     * @var ProtectionRuleSenderDepartmentsType
      */
     public $SenderDepartments;
 
@@ -57,7 +57,7 @@ class ProtectionRuleAndType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ProtectionRuleTrueType
+     * @var ProtectionRuleTrueType
      */
     public $True;
 }

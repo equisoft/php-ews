@@ -16,7 +16,7 @@ class ArrayOfSuggestion extends EWSType
     /**
      * Suggestion property
      *
-     * @var EWSType_Suggestion
+     * @var Suggestion
      */
     public $Suggestion;
 }

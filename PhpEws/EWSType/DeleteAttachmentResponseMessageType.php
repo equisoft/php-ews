@@ -16,7 +16,7 @@ class DeleteAttachmentResponseMessageType extends EWSType
     /**
      * RootItemId property
      *
-     * @var EWSType_RootItemIdType
+     * @var RootItemIdType
      */
     public $RootItemId;
 }

@@ -19,7 +19,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AndType
+     * @var AndType
      */
     public $And;
 
@@ -29,7 +29,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContainsExpressionType
+     * @var ContainsExpressionType
      */
     public $Contains;
 
@@ -38,7 +38,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExcludesType
+     * @var ExcludesType
      */
     public $Excludes;
 
@@ -48,7 +48,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExistsType
+     * @var ExistsType
      */
     public $Exists;
 
@@ -59,7 +59,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsEqualToType
+     * @var IsEqualToType
      */
     public $IsEqualTo;
 
@@ -70,7 +70,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsGreaterThanType
+     * @var IsGreaterThanType
      */
     public $IsGreaterThan;
 
@@ -81,7 +81,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsGreaterThanOrEqualToType
+     * @var IsGreaterThanOrEqualToType
      */
     public $IsGreaterThanOrEqualTo;
 
@@ -92,7 +92,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsLessThanType
+     * @var IsLessThanType
      */
     public $IsLessThan;
 
@@ -103,7 +103,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsLessThanOrEqualToType
+     * @var IsLessThanOrEqualToType
      */
     public $IsLessThanOrEqualTo;
 
@@ -114,7 +114,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsNotEqualToType
+     * @var IsNotEqualToType
      */
     public $IsNotEqualTo;
 
@@ -122,7 +122,7 @@ class NotType extends EWSType
      * Represents a search expression that negates the Boolean value of the
      * search expression it contains.
      *
-     * @var EWSType_NotType
+     * @var NotType
      *
      * @since Exchange 2007
      */
@@ -136,7 +136,7 @@ class NotType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_OrType
+     * @var OrType
      */
     public $Or;
 }

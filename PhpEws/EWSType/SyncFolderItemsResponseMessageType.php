@@ -30,7 +30,7 @@ class SyncFolderItemsResponseMessageType extends EWSType
     /**
      * Changes property
      *
-     * @var EWSType_SyncFolderItemsChangesType
+     * @var SyncFolderItemsChangesType
      */
     public $Changes;
 }

@@ -17,7 +17,7 @@ class FileAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AttachmentIdType
+     * @var AttachmentIdType
      */
     public $AttachmentId;
 

@@ -16,7 +16,7 @@ class NonEmptyArrayOfNotificationEventTypesType extends EWSType
     /**
      * EventType property
      *
-     * @var EWSType_NotificationEventTypeType
+     * @var NotificationEventTypeType
      */
     public $EventType;
 }

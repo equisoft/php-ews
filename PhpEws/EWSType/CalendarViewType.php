@@ -16,7 +16,7 @@ class CalendarViewType extends EWSType
     /**
      * StartDate property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      *
      * @todo Make a DateTime object.
      */
@@ -25,7 +25,7 @@ class CalendarViewType extends EWSType
     /**
      * EndDate property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      *
      * @todo Make a DateTime object.
      */

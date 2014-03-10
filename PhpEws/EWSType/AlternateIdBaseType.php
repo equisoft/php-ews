@@ -16,7 +16,7 @@ class AlternateIdBaseType extends EWSType
     /**
      * Format property
      *
-     * @var EWSType_IdFormatType
+     * @var IdFormatType
      */
     public $Format;
 }

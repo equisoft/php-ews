@@ -16,14 +16,14 @@ class SyncFolderHierarchyType extends EWSType
     /**
      * FolderShape property
      *
-     * @var EWSType_FolderResponseShapeType
+     * @var FolderResponseShapeType
      */
     public $FolderShape;
 
     /**
      * SyncFolderId property
      *
-     * @var EWSType_TargetFolderIdType
+     * @var TargetFolderIdType
      */
     public $SyncFolderId;
 

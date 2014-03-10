@@ -27,7 +27,7 @@ class TimeZoneType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TimeChangeType
+     * @var TimeChangeType
      */
     public $Daylight;
 
@@ -37,7 +37,7 @@ class TimeZoneType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TimeChangeType
+     * @var TimeChangeType
      */
     public $Standard;
 

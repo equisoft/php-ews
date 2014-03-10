@@ -17,7 +17,7 @@ class NonEmptyArrayOfDeletedOccurrencesType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DeletedOccurrenceInfoType
+     * @var DeletedOccurrenceInfoType
      */
     public $DeletedOccurrence;
 }

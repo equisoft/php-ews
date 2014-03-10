@@ -16,14 +16,14 @@ class GetAttachmentType extends EWSType
     /**
      * AttachmentShape property
      *
-     * @var EWSType_AttachmentResponseShapeType
+     * @var AttachmentResponseShapeType
      */
     public $AttachmentShape;
 
     /**
      * AttachmentIds property
      *
-     * @var EWSType_NonEmptyArrayOfRequestAttachmentIdsType
+     * @var NonEmptyArrayOfRequestAttachmentIdsType
      */
     public $AttachmentIds;
 }

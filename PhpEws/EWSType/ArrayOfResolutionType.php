@@ -16,7 +16,7 @@ class ArrayOfResolutionType extends EWSType
     /**
      * Resolution property
      *
-     * @var EWSType_ResolutionType
+     * @var ResolutionType
      */
     public $Resolution;
 

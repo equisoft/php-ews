@@ -18,7 +18,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -28,7 +28,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -37,7 +37,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -47,7 +47,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -57,7 +57,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $CcRecipients;
 
@@ -159,7 +159,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -168,7 +168,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -177,7 +177,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $From;
 
@@ -197,7 +197,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -216,7 +216,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -319,7 +319,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -331,7 +331,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -341,7 +341,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -350,7 +350,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $NewBodyContent;
 
@@ -362,7 +362,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -371,7 +371,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -380,7 +380,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -433,7 +433,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ReplyTo;
 
@@ -443,7 +443,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -452,7 +452,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Sender;
 
@@ -461,7 +461,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -492,7 +492,7 @@ class PostReplyItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ToRecipients;
 }

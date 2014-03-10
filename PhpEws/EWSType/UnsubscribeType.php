@@ -16,7 +16,7 @@ class UnsubscribeType extends EWSType
     /**
      * SubscriptionId property
      *
-     * @var EWSType_SubscriptionIdType
+     * @var SubscriptionIdType
      */
     public $SubscriptionId;
 }

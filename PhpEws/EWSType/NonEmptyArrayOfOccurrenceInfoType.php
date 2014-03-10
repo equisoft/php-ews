@@ -18,7 +18,7 @@ class NonEmptyArrayOfOccurrenceInfoType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_OccurrenceInfoType
+     * @var OccurrenceInfoType
      */
     public $Occurrence;
 }

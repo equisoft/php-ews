@@ -21,7 +21,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -30,7 +30,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -40,7 +40,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $CcRecipients;
 
@@ -49,7 +49,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $From;
 
@@ -76,7 +76,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $NewBodyContent;
 
@@ -85,7 +85,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -94,7 +94,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -103,7 +103,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ReferenceItemId;
 
@@ -123,7 +123,7 @@ class ReplyAllToItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ToRecipients;
 }

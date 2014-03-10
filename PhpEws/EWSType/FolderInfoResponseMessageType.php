@@ -16,7 +16,7 @@ class FolderInfoResponseMessageType extends EWSType
     /**
      * Folders property
      *
-     * @var EWSType_ArrayOfFoldersType
+     * @var ArrayOfFoldersType
      */
     public $Folders;
 }

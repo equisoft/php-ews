@@ -27,7 +27,7 @@ class AlternatePublicFolderIdType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_IdFormatType
+     * @var IdFormatType
      */
     public $Format;
 }

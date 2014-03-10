@@ -16,7 +16,7 @@ class RequestServerVersion extends EWSType
     /**
      * Version property
      *
-     * @var EWSType_ExchangeVersionType
+     * @var ExchangeVersionType
      */
     public $Version;
 }

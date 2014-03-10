@@ -18,7 +18,7 @@ class ArrayOfDelegateUserResponseMessageType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateUserResponseMessageType
+     * @var DelegateUserResponseMessageType
      */
     public $DelegateUserResponseMessageType;
 }

@@ -17,7 +17,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AbsoluteMonthlyRecurrencePatternType
+     * @var AbsoluteMonthlyRecurrencePatternType
      */
     public $AbsoluteMonthlyRecurrence;
 
@@ -26,7 +26,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AbsoluteYearlyRecurrencePatternType
+     * @var AbsoluteYearlyRecurrencePatternType
      */
     public $AbsoluteYearlyRecurrence;
 
@@ -36,7 +36,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DailyRecurrencePatternType
+     * @var DailyRecurrencePatternType
      */
     public $DailyRecurrence;
 
@@ -48,7 +48,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EndDateRecurrenceRangeType
+     * @var EndDateRecurrenceRangeType
      */
     public $EndDateRecurrence;
 
@@ -60,7 +60,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NoEndRecurrenceRangeType
+     * @var NoEndRecurrenceRangeType
      */
     public $NoEndRecurrence;
 
@@ -73,7 +73,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NumberedRecurrenceRangeType
+     * @var NumberedRecurrenceRangeType
      */
     public $NumberedRecurrence;
 
@@ -83,7 +83,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RelativeMonthlyRecurrencePatternType
+     * @var RelativeMonthlyRecurrencePatternType
      */
     public $RelativeMonthlyRecurrence;
 
@@ -92,7 +92,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RelativeYearlyRecurrencePatternType
+     * @var RelativeYearlyRecurrencePatternType
      */
     public $RelativeYearlyRecurrence;
 
@@ -102,7 +102,7 @@ class RecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_WeeklyRecurrencePatternType
+     * @var WeeklyRecurrencePatternType
      */
     public $WeeklyRecurrence;
 }

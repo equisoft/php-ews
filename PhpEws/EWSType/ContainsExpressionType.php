@@ -18,7 +18,7 @@ class ContainsExpressionType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -27,7 +27,7 @@ class ContainsExpressionType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToIndexedFieldType
+     * @var PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 
@@ -36,7 +36,7 @@ class ContainsExpressionType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToExtendedFieldType
+     * @var PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -45,7 +45,7 @@ class ContainsExpressionType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ConstantValueType
+     * @var ConstantValueType
      */
     public $Constant;
 
@@ -54,7 +54,7 @@ class ContainsExpressionType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContainmentModeType
+     * @var ContainmentModeType
      */
     public $ContainmentMode;
 
@@ -63,7 +63,7 @@ class ContainsExpressionType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContainmentComparisonType
+     * @var ContainmentComparisonType
      */
     public $ContainmentComparison;
 }

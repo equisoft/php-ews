@@ -16,7 +16,7 @@ class ExpandDLResponseMessageType extends EWSType
     /**
      * DLExpansion property
      *
-     * @var EWSType_ArrayOfDLExpansionType
+     * @var ArrayOfDLExpansionType
      */
     public $DLExpansion;
 

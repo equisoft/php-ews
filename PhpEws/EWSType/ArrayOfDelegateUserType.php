@@ -17,7 +17,7 @@ class ArrayOfDelegateUserType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateUserType
+     * @var DelegateUserType
      */
     public $DelegateUser;
 }

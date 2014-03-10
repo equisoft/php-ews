@@ -16,21 +16,21 @@ class FolderChangeType extends EWSType
     /**
      * FolderId property
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $FolderId;
 
     /**
      * DistinguishedFolderId property
      *
-     * @var EWSType_DistinguishedFolderIdType
+     * @var DistinguishedFolderIdType
      */
     public $DistinguishedFolderId;
 
     /**
      * Updates property
      *
-     * @var EWSType_NonEmptyArrayOfFolderChangeDescriptionsType
+     * @var NonEmptyArrayOfFolderChangeDescriptionsType
      */
     public $Updates;
 }

@@ -21,7 +21,7 @@ class TransitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_TransitionTargetType
+     * @var TransitionTargetType
      */
     public $To;
 }

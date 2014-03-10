@@ -18,7 +18,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -28,7 +28,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -37,7 +37,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -47,7 +47,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $CcRecipients;
 
@@ -57,7 +57,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -84,7 +84,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -93,7 +93,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -102,7 +102,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -111,7 +111,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ReferenceItemId;
 
@@ -120,7 +120,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Sender;
 
@@ -129,7 +129,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -140,7 +140,7 @@ class TentativelyAcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ToRecipients;
 }

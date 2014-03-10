@@ -17,7 +17,7 @@ class NonEmptyArrayOfAttendeesType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AttendeeType
+     * @var AttendeeType
      */
     public $Attendee;
 }

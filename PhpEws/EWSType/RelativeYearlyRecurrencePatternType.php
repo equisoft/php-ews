@@ -17,7 +17,7 @@ class RelativeYearlyRecurrencePatternType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DayOfWeekType
+     * @var DayOfWeekType
      */
     public $DaysOfWeek;
 
@@ -27,7 +27,7 @@ class RelativeYearlyRecurrencePatternType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DayOfWeekIndexType
+     * @var DayOfWeekIndexType
      */
     public $DayOfWeekIndex;
 
@@ -36,7 +36,7 @@ class RelativeYearlyRecurrencePatternType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MonthNamesType
+     * @var MonthNamesType
      */
     public $Month;
 }

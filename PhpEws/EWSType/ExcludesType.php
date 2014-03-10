@@ -21,7 +21,7 @@ class ExcludesType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExcludesValueType
+     * @var ExcludesValueType
      */
     public $Bitmask;
 
@@ -30,7 +30,7 @@ class ExcludesType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToExtendedFieldType
+     * @var PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -39,7 +39,7 @@ class ExcludesType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -48,7 +48,7 @@ class ExcludesType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToIndexedFieldType
+     * @var PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 }

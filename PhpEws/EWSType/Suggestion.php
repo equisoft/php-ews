@@ -16,7 +16,7 @@ class Suggestion extends EWSType
     /**
      * MeetingTime property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      */
     public $MeetingTime;
 
@@ -30,14 +30,14 @@ class Suggestion extends EWSType
     /**
      * SuggestionQuality property
      *
-     * @var EWSType_SuggestionQuality
+     * @var SuggestionQuality
      */
     public $SuggestionQuality;
 
     /**
      * AttendeeConflictDataArray property
      *
-     * @var EWSType_ArrayOfAttendeeConflictData
+     * @var ArrayOfAttendeeConflictData
      */
     public $AttendeeConflictDataArray;
 }

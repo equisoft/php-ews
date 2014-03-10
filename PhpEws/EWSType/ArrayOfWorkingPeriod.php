@@ -16,7 +16,7 @@ class ArrayOfWorkingPeriod extends EWSType
     /**
      * WorkingPeriod property
      *
-     * @var EWSType_WorkingPeriod
+     * @var WorkingPeriod
      */
     public $WorkingPeriod;
 }

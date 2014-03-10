@@ -23,14 +23,14 @@ class SerializedSecurityContextType extends EWSType
     /**
      * GroupSids property
      *
-     * @var EWSType_NonEmptyArrayOfGroupIdentifiersType
+     * @var NonEmptyArrayOfGroupIdentifiersType
      */
     public $GroupSids;
 
     /**
      * RestrictedGroupSids property
      *
-     * @var EWSType_NonEmptyArrayOfRestrictedGroupIdentifiersType
+     * @var NonEmptyArrayOfRestrictedGroupIdentifiersType
      */
     public $RestrictedGroupSids;
 

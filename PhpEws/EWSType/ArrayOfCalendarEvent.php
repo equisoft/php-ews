@@ -16,7 +16,7 @@ class ArrayOfCalendarEvent extends EWSType
     /**
      * CalendarEvent property
      *
-     * @var EWSType_CalendarEvent
+     * @var CalendarEvent
      */
     public $CalendarEvent;
 }

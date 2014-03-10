@@ -36,7 +36,7 @@ class TimeZoneDefinitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_NonEmptyArrayOfPeriodsType
+     * @var NonEmptyArrayOfPeriodsType
      */
     public $Periods;
 
@@ -45,7 +45,7 @@ class TimeZoneDefinitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ArrayOfTransitionsType
+     * @var ArrayOfTransitionsType
      */
     public $Transitions;
 
@@ -54,7 +54,7 @@ class TimeZoneDefinitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ArrayOfTransitionsGroupsType
+     * @var ArrayOfTransitionsGroupsType
      */
     public $TransitionsGroups;
 }

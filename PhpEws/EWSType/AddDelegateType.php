@@ -17,7 +17,7 @@ class AddDelegateType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_ArrayOfDelegateUserType
+     * @var ArrayOfDelegateUserType
      */
     public $DelegateUsers;
 
@@ -27,7 +27,7 @@ class AddDelegateType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_DeliverMeetingRequestsType
+     * @var DeliverMeetingRequestsType
      */
     public $DeliverMeetingRequests;
 
@@ -36,7 +36,7 @@ class AddDelegateType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Maibox;
 }

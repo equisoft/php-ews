@@ -22,7 +22,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AndType
+     * @var AndType
      */
     public $And;
 
@@ -32,7 +32,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContainsExpressionType
+     * @var ContainsExpressionType
      */
     public $Contains;
 
@@ -41,7 +41,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExcludesType
+     * @var ExcludesType
      */
     public $Excludes;
 
@@ -51,7 +51,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExistsType
+     * @var ExistsType
      */
     public $Exists;
 
@@ -62,7 +62,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsEqualToType
+     * @var IsEqualToType
      */
     public $IsEqualTo;
 
@@ -73,7 +73,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsGreaterThanType
+     * @var IsGreaterThanType
      */
     public $IsGreaterThan;
 
@@ -84,7 +84,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsGreaterThanOrEqualToType
+     * @var IsGreaterThanOrEqualToType
      */
     public $IsGreaterThanOrEqualTo;
 
@@ -95,7 +95,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsLessThanType
+     * @var IsLessThanType
      */
     public $IsLessThan;
 
@@ -106,7 +106,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsLessThanOrEqualToType
+     * @var IsLessThanOrEqualToType
      */
     public $IsLessThanOrEqualTo;
 
@@ -117,7 +117,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_IsNotEqualToType
+     * @var IsNotEqualToType
      */
     public $IsNotEqualTo;
 
@@ -127,7 +127,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NotType
+     * @var NotType
      */
     public $Not;
 
@@ -139,7 +139,7 @@ class AndType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_OrType
+     * @var OrType
      */
     public $Or;
 }

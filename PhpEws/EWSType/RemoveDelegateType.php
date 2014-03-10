@@ -16,7 +16,7 @@ class RemoveDelegateType extends EWSType
     /**
      * UserIds property
      *
-     * @var EWSType_ArrayOfUserIdType
+     * @var ArrayOfUserIdType
      */
     public $UserIds;
 }

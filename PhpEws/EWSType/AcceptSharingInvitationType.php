@@ -18,7 +18,7 @@ class AcceptSharingInvitationType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ReferenceItemId;
 }

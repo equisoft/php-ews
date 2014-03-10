@@ -16,14 +16,14 @@ class DistinguishedFolderIdType extends EWSType
     /**
      * Mailbox property
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Mailbox;
 
     /**
      * Id property
      *
-     * @var EWSType_DistinguishedFolderIdNameType
+     * @var DistinguishedFolderIdNameType
      */
     public $Id;
 

@@ -16,7 +16,7 @@ class PullSubscriptionRequestType extends EWSType
     /**
      * Timeout property
      *
-     * @var EWSType_SubscriptionTimeoutType
+     * @var SubscriptionTimeoutType
      */
     public $Timeout;
 }

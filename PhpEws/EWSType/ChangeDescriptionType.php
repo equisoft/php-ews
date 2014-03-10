@@ -16,7 +16,7 @@ class ChangeDescriptionType extends EWSType
     /**
      * Path property
      *
-     * @var EWSType_BasePathToElementType
+     * @var BasePathToElementType
      */
     public $Path;
 }

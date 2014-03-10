@@ -47,7 +47,7 @@ class UserIdType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_DistinguishedUserType
+     * @var DistinguishedUserType
      */
     public $DistinguishedUser;
 

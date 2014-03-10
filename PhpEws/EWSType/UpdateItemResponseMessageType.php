@@ -16,7 +16,7 @@ class UpdateItemResponseMessageType extends EWSType
     /**
      * ConflictResults property
      *
-     * @var EWSType_ConflictResultsType
+     * @var ConflictResultsType
      */
     public $ConflictResults;
 }

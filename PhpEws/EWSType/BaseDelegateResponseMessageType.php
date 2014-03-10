@@ -16,7 +16,7 @@ class BaseDelegateResponseMessageType extends EWSType
     /**
      * ResponseMessages property
      *
-     * @var EWSType_ArrayOfDelegateUserResponseMessageType
+     * @var ArrayOfDelegateUserResponseMessageType
      */
     public $ResponseMessages;
 }

@@ -16,7 +16,7 @@ class SetUserOofSettingsResponse extends EWSType
     /**
      * ResponseMessage property
      *
-     * @var EWSType_ResponseMessageType
+     * @var ResponseMessageType
      */
     public $ResponseMessage;
 }

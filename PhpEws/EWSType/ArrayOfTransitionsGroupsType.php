@@ -17,7 +17,7 @@ class ArrayOfTransitionsGroupsType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ArrayOfTransitionsType
+     * @var ArrayOfTransitionsType
      */
     public $TransitionsGroup;
 }

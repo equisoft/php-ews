@@ -16,7 +16,7 @@ class CalendarFolderType extends EWSType
     /**
      * PermissionSet property
      *
-     * @var EWSType_CalendarPermissionSetType
+     * @var CalendarPermissionSetType
      */
     public $PermissionSet;
 }

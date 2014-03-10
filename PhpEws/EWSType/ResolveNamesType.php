@@ -16,14 +16,14 @@ class ResolveNamesType extends EWSType
     /**
      * ParentFolderIds property
      *
-     * @var EWSType_NonEmptyArrayOfBaseFolderIdsType
+     * @var NonEmptyArrayOfBaseFolderIdsType
      */
     public $ParentFolderIds;
 
     /**
      * UnresolvedEntry property
      *
-     * @var EWSType_NonEmptyStringType
+     * @var NonEmptyStringType
      */
     public $UnresolvedEntry;
 
@@ -37,7 +37,7 @@ class ResolveNamesType extends EWSType
     /**
      * SearchScope property
      *
-     * @var EWSType_ResolveNamesSearchScopeType
+     * @var ResolveNamesSearchScopeType
      */
     public $SearchScope;
 }

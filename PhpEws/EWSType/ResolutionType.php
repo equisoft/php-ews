@@ -16,14 +16,14 @@ class ResolutionType extends EWSType
     /**
      * Mailbox property
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Mailbox;
 
     /**
      * Contact property
      *
-     * @var EWSType_ContactItemType
+     * @var ContactItemType
      */
     public $Contact;
 }

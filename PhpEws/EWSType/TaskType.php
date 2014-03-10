@@ -38,7 +38,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -56,7 +56,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -66,7 +66,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -85,7 +85,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Companies;
 
@@ -105,7 +105,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Contacts;
 
@@ -114,7 +114,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ConversationId;
 
@@ -170,7 +170,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TaskDelegateStateType
+     * @var TaskDelegateStateType
      */
     public $DelegationState;
 
@@ -226,7 +226,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -235,7 +235,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -256,7 +256,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -275,7 +275,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -286,7 +286,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TaskTypeType
+     * @var TaskTypeType
      */
     public $IsAssignmentEditable;
 
@@ -379,7 +379,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -389,7 +389,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -428,7 +428,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -449,7 +449,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -467,7 +467,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TaskRecurrenceType
+     * @var TaskRecurrenceType
      */
     public $Recurrence;
 
@@ -514,7 +514,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -523,7 +523,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -554,7 +554,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TaskStatusType
+     * @var TaskStatusType
      */
     public $Status;
 
@@ -593,7 +593,7 @@ class TaskType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $UniqueBody;
 

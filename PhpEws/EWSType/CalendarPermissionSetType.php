@@ -16,14 +16,14 @@ class CalendarPermissionSetType extends EWSType
     /**
      * CalendarPermissions property
      *
-     * @var EWSType_ArrayOfCalendarPermissionsType
+     * @var ArrayOfCalendarPermissionsType
      */
     public $CalendarPermissions;
 
     /**
      * UnknownEntries property
      *
-     * @var EWSType_ArrayOfUnknownEntriesType
+     * @var ArrayOfUnknownEntriesType
      */
     public $UnknownEntries;
 }

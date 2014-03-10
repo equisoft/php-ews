@@ -16,7 +16,7 @@ class RecurringMasterItemIdType extends EWSType
     /**
      * OccurrenceId property
      *
-     * @var EWSType_DerivedItemIdType
+     * @var DerivedItemIdType
      */
     public $OccurrenceId;
 

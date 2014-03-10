@@ -23,7 +23,7 @@ class PathToExtendedFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DistinguishedPropertySetIdType
+     * @var DistinguishedPropertySetIdType
      */
     public $DistinguishedPropertySetId;
 
@@ -117,7 +117,7 @@ class PathToExtendedFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MapiPropertyTypeType
+     * @var MapiPropertyTypeType
      */
     public $PropertyType;
 }

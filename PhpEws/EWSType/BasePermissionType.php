@@ -16,7 +16,7 @@ class BasePermissionType extends EWSType
     /**
      * UserId property
      *
-     * @var EWSType_UserIdType
+     * @var UserIdType
      */
     public $UserId;
 
@@ -58,14 +58,14 @@ class BasePermissionType extends EWSType
     /**
      * EditItems property
      *
-     * @var EWSType_PermissionActionType
+     * @var PermissionActionType
      */
     public $EditItems;
 
     /**
      * DeleteItems property
      *
-     * @var EWSType_PermissionActionType
+     * @var PermissionActionType
      */
     public $DeleteItems;
 }

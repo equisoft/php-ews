@@ -17,7 +17,7 @@ class PathToUnindexedFieldType extends EWSType
      *
      * @since Exchnage 2007
      *
-     * @var EWSType_UnindexedFieldURIType
+     * @var UnindexedFieldURIType
      */
     public $FieldURI;
 }

@@ -16,7 +16,7 @@ class ArrayOfPermissionsType extends EWSType
     /**
      * Permission property
      *
-     * @var EWSType_PermissionType
+     * @var PermissionType
      */
     public $Permission;
 }

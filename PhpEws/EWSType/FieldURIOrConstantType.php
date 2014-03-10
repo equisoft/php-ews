@@ -18,7 +18,7 @@ class FieldURIOrConstantType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ConstantValueType
+     * @var ConstantValueType
      */
     public $Constant;
 
@@ -27,7 +27,7 @@ class FieldURIOrConstantType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToExtendedFieldType
+     * @var PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -36,7 +36,7 @@ class FieldURIOrConstantType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -45,7 +45,7 @@ class FieldURIOrConstantType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToIndexedFieldType
+     * @var PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 }

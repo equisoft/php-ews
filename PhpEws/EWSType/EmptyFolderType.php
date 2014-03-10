@@ -13,7 +13,7 @@ class EmptyFolderType extends EWSType {
     /**
      * FolderIds property
      *
-     * @var EWSType_NonEmptyArrayOfBaseFolderIdsType
+     * @var NonEmptyArrayOfBaseFolderIdsType
      */
     public $FolderIds;
 

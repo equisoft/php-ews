@@ -17,7 +17,7 @@ class SingleRecipientType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Mailbox;
 }

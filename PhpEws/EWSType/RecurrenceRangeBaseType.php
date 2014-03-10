@@ -16,7 +16,7 @@ class RecurrenceRangeBaseType extends EWSType
     /**
      * StartDate property
      *
-     * @var EWSType_date
+     * @var date
      *
      * @todo Make a DateTime object.
      */

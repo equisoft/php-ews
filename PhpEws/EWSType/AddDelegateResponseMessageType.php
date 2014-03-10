@@ -18,7 +18,7 @@ class AddDelegateResponseMessageType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_ArrayOfDelegateUserResponseMessageType
+     * @var ArrayOfDelegateUserResponseMessageType
      */
     public $ResponseMessages;
 
@@ -37,7 +37,7 @@ class AddDelegateResponseMessageType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_ResponseCodeType
+     * @var ResponseCodeType
      */
     public $ResponseCode;
 

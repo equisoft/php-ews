@@ -30,7 +30,7 @@ class ExcludesValueType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExcludesAttributeType
+     * @var ExcludesAttributeType
      */
     public $Value;
 }

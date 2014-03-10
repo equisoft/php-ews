@@ -16,7 +16,7 @@ class ReferenceItemResponseType extends EWSType
     /**
      * ReferenceItemId property
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ReferenceItemId;
 

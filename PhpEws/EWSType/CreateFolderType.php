@@ -16,14 +16,14 @@ class CreateFolderType extends EWSType
     /**
      * ParentFolderId property
      *
-     * @var EWSType_TargetFolderIdType
+     * @var TargetFolderIdType
      */
     public $ParentFolderId;
 
     /**
      * Folders property
      *
-     * @var EWSType_NonEmptyArrayOfFoldersType
+     * @var NonEmptyArrayOfFoldersType
      */
     public $Folders;
 }

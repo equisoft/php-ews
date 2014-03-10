@@ -16,7 +16,7 @@ class Duration extends EWSType
     /**
      * StartTime property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      *
      * @todo Make a DateTime object.
      */
@@ -25,7 +25,7 @@ class Duration extends EWSType
     /**
      * EndTime property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      *
      * @todo Make a DateTime object.
      */

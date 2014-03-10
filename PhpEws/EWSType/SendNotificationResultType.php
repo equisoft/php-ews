@@ -16,7 +16,7 @@ class SendNotificationResultType extends EWSType
     /**
      * SubscriptionStatus property
      *
-     * @var EWSType_SubscriptionStatusType
+     * @var SubscriptionStatusType
      */
     public $SubscriptionStatus;
 }

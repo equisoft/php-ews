@@ -20,7 +20,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAttachmentsType
+     * @var NonEmptyArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -29,7 +29,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -39,7 +39,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -48,7 +48,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ConversationId;
 
@@ -129,7 +129,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -138,7 +138,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -159,7 +159,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -178,7 +178,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -242,7 +242,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -252,7 +252,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -282,7 +282,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -292,7 +292,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -302,7 +302,7 @@ class ItemType extends EWSType
      * @since Exchange 2007 SP1
      * @deprecated Exchange 2010
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -312,7 +312,7 @@ class ItemType extends EWSType
      * @since Exchange 2007 SP1
      * @deprecated Exchange 2010
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -359,7 +359,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -368,7 +368,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -398,7 +398,7 @@ class ItemType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $UniqueBody;
 

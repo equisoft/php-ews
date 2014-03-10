@@ -16,7 +16,7 @@ class ItemResponseShapeType extends EWSType
     /**
      * BaseShape property
      *
-     * @var EWSType_DefaultShapeNamesType
+     * @var DefaultShapeNamesType
      */
     public $BaseShape;
 
@@ -30,14 +30,14 @@ class ItemResponseShapeType extends EWSType
     /**
      * BodyType property
      *
-     * @var EWSType_BodyTypeResponseType
+     * @var BodyTypeResponseType
      */
     public $BodyType;
 
     /**
      * AdditionalProperties property
      *
-     * @var EWSType_NonEmptyArrayOfPathsToElementType
+     * @var NonEmptyArrayOfPathsToElementType
      */
     public $AdditionalProperties;
 }

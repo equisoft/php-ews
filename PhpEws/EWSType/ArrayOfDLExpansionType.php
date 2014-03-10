@@ -16,7 +16,7 @@ class ArrayOfDLExpansionType extends EWSType
     /**
      * Mailbox property
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Mailbox;
 

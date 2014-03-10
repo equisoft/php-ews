@@ -16,14 +16,14 @@ class FieldOrderType extends EWSType
     /**
      * Path property
      *
-     * @var EWSType_BasePathToElementType
+     * @var BasePathToElementType
      */
     public $Path;
 
     /**
      * Order property
      *
-     * @var EWSType_SortDirectionType
+     * @var SortDirectionType
      */
     public $Order;
 }

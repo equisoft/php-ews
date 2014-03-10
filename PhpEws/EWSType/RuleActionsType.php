@@ -18,7 +18,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $AssignCategories;
 
@@ -27,7 +27,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_TargetFolderIdType
+     * @var TargetFolderIdType
      */
     public $CopyToFolder;
 
@@ -46,7 +46,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ArrayOfEmailAddressesType
+     * @var ArrayOfEmailAddressesType
      */
     public $ForwardAsAttachmentToRecipients;
 
@@ -55,7 +55,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ArrayOfEmailAddressesType
+     * @var ArrayOfEmailAddressesType
      */
     public $ForwardToRecipients;
 
@@ -64,7 +64,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $MarkImportance;
 
@@ -82,7 +82,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_TargetFolderIdType
+     * @var TargetFolderIdType
      */
     public $MoveToFolder;
 
@@ -101,7 +101,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ArrayOfEmailAddressesType
+     * @var ArrayOfEmailAddressesType
      */
     public $RedirectToRecipients;
 
@@ -111,7 +111,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ArrayOfEmailAddressesType
+     * @var ArrayOfEmailAddressesType
      */
     public $SendSMSAlertToRecipients;
 
@@ -121,7 +121,7 @@ class RuleActionsType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ServerReplyWithMessage;
 

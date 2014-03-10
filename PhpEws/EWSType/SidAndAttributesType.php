@@ -23,7 +23,7 @@ class SidAndAttributesType extends EWSType
     /**
      * Attributes property
      *
-     * @var EWSType_unsignedInt
+     * @var unsignedInt
      */
     public $Attributes;
 }

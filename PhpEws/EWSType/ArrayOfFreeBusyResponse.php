@@ -16,7 +16,7 @@ class ArrayOfFreeBusyResponse extends EWSType
     /**
      * FreeBusyResponse property
      *
-     * @var EWSType_FreeBusyResponseType
+     * @var FreeBusyResponseType
      */
     public $FreeBusyResponse;
 }

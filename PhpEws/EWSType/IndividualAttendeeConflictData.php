@@ -16,7 +16,7 @@ class IndividualAttendeeConflictData extends EWSType
     /**
      * BusyType property
      *
-     * @var EWSType_LegacyFreeBusyType
+     * @var LegacyFreeBusyType
      */
     public $BusyType;
 }

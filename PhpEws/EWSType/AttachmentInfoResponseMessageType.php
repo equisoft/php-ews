@@ -16,7 +16,7 @@ class AttachmentInfoResponseMessageType extends EWSType
     /**
      * Attachments property
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 }

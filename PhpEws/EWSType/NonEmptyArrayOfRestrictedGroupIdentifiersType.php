@@ -16,7 +16,7 @@ class NonEmptyArrayOfRestrictedGroupIdentifiersType extends EWSType
     /**
      * RestrictedGroupIdentifier property
      *
-     * @var EWSType_SidAndAttributesType
+     * @var SidAndAttributesType
      */
     public $RestrictedGroupIdentifier;
 }

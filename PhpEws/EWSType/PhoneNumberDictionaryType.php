@@ -17,7 +17,7 @@ class PhoneNumberDictionaryType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PhoneNumberDictionaryEntryType
+     * @var PhoneNumberDictionaryEntryType
      */
     public $Entry;
 }

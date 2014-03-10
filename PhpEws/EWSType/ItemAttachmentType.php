@@ -17,7 +17,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AttachmentIdType
+     * @var AttachmentIdType
      */
     public $AttachmentId;
 
@@ -26,7 +26,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CalendarItemType
+     * @var CalendarItemType
      */
     public $CalendarItem;
 
@@ -35,7 +35,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContactItemType
+     * @var ContactItemType
      */
     public $Contact;
 
@@ -85,7 +85,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemType
+     * @var ItemType
      */
     public $Item;
 
@@ -105,7 +105,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingCancellationMessageType
+     * @var MeetingCancellationMessageType
      */
     public $MeetingCancellation;
 
@@ -114,7 +114,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingMessageType
+     * @var MeetingMessageType
      */
     public $MeetingMessage;
 
@@ -123,7 +123,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingRequestMessageType
+     * @var MeetingRequestMessageType
      */
     public $MeetingRequest;
 
@@ -132,7 +132,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingResponseMessageType
+     * @var MeetingResponseMessageType
      */
     public $MeetingResponse;
 
@@ -141,7 +141,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MessageType
+     * @var MessageType
      */
     public $Message;
 
@@ -170,7 +170,7 @@ class ItemAttachmentType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TaskType
+     * @var TaskType
      */
     public $Task;
 }

@@ -28,7 +28,7 @@ class PathToIndexedFieldType extends EWSType
      *
      * @since Exchnage 2007
      *
-     * @var EWSType_DictionaryURIType
+     * @var DictionaryURIType
      */
     public $FieldURI;
 }

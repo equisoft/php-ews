@@ -17,7 +17,7 @@ class ArrayOfEmailAddressesType extends EWSType
      *
      * @since Exchnage 2010 SP1
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Address;
 }

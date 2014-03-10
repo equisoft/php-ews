@@ -16,21 +16,21 @@ class SuggestionDayResult extends EWSType
     /**
      * Date property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      */
     public $Date;
 
     /**
      * DayQuality property
      *
-     * @var EWSType_SuggestionQuality
+     * @var SuggestionQuality
      */
     public $DayQuality;
 
     /**
      * SuggestionArray property
      *
-     * @var EWSType_ArrayOfSuggestion
+     * @var ArrayOfSuggestion
      */
     public $SuggestionArray;
 }

@@ -16,7 +16,7 @@ class FindItemResponseMessageType extends EWSType
     /**
      * RootFolder property
      *
-     * @var EWSType_FindItemParentType
+     * @var FindItemParentType
      */
     public $RootFolder;
 }

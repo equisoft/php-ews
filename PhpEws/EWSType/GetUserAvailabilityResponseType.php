@@ -16,14 +16,14 @@ class GetUserAvailabilityResponseType extends EWSType
     /**
      * FreeBusyResponseArray property
      *
-     * @var EWSType_ArrayOfFreeBusyResponse
+     * @var ArrayOfFreeBusyResponse
      */
     public $FreeBusyResponseArray;
 
     /**
      * SuggestionsResponse property
      *
-     * @var EWSType_SuggestionsResponseType
+     * @var SuggestionsResponseType
      */
     public $SuggestionsResponse;
 }

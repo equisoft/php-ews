@@ -16,7 +16,7 @@ class SmartResponseType extends EWSType
     /**
      * NewBodyContent property
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $NewBodyContent;
 }

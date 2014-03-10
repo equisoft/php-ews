@@ -10,7 +10,7 @@ namespace PhpEws\EWSType;
  *
  * @package php-ews\Types
  */
-class CalendarItemType extends EWSType_ItemType
+class CalendarItemType extends ItemType
 {
     /**
      * Represents the total number of calendar items that are adjacent to a
@@ -27,7 +27,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAllItemsType
+     * @var NonEmptyArrayOfAllItemsType
      */
     public $AdjacentMeetings;
 
@@ -67,7 +67,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AppointmentStateType
+     * @var AppointmentStateType
      */
     public $AppointmentState;
 
@@ -77,7 +77,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -86,7 +86,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -95,7 +95,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CalendarItemTypeType
+     * @var CalendarItemTypeType
      */
     public $CalendarItemType;
 
@@ -105,7 +105,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -115,7 +115,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ConferenceTypeType
+     * @var ConferenceTypeType
      */
     public $ConferenceType;
 
@@ -133,7 +133,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAllItemsType
+     * @var NonEmptyArrayOfAllItemsType
      */
     public $ConflictingMeetings;
 
@@ -142,7 +142,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ConversationId;
 
@@ -210,7 +210,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfDeletedOccurrencesType
+     * @var NonEmptyArrayOfDeletedOccurrencesType
      */
     public $DeletedOccurrences;
 
@@ -255,7 +255,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -277,7 +277,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_TimeZoneDefinitionType
+     * @var TimeZoneDefinitionType
      */
     public $EndTimeZone;
 
@@ -286,7 +286,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -297,7 +297,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_OccurrenceInfoType
+     * @var OccurrenceInfoType
      */
     public $FirstOccurrence;
 
@@ -318,7 +318,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -337,7 +337,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -458,7 +458,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -468,7 +468,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -499,7 +499,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_OccurrenceInfoType
+     * @var OccurrenceInfoType
      */
     public $LastOccurrence;
 
@@ -508,7 +508,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_LegacyFreeBusyType
+     * @var LegacyFreeBusyType
      */
     public $LegacyFreeBusyStatus;
 
@@ -535,7 +535,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TimeZoneType
+     * @var TimeZoneType
      */
     public $MeetingTimeZone;
 
@@ -555,7 +555,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -567,7 +567,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfOccurrenceInfoType
+     * @var NonEmptyArrayOfOccurrenceInfoType
      */
     public $ModifiedOccurrences;
 
@@ -576,7 +576,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ResponseTypeType
+     * @var ResponseTypeType
      */
     public $MyResponseType;
 
@@ -594,7 +594,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAttendeesType
+     * @var NonEmptyArrayOfAttendeesType
      */
     public $OptionalAttendees;
 
@@ -603,7 +603,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Organizer;
 
@@ -624,7 +624,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -635,7 +635,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RecurrenceType
+     * @var RecurrenceType
      */
     public $Recurrence;
 
@@ -692,7 +692,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAttendeesType
+     * @var NonEmptyArrayOfAttendeesType
      */
     public $RequiredAttendees;
 
@@ -702,7 +702,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -711,7 +711,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAttendeesType
+     * @var NonEmptyArrayOfAttendeesType
      */
     public $Resources;
 
@@ -720,7 +720,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -753,7 +753,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_TimeZoneDefinitionType
+     * @var TimeZoneDefinitionType
      */
     public $StartTimeZone;
 
@@ -790,7 +790,7 @@ class CalendarItemType extends EWSType_ItemType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $UniqueBody;
 

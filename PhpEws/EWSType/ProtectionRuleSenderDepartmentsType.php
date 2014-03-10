@@ -18,7 +18,7 @@ class ProtectionRuleSenderDepartmentsType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ProtectionRuleValueType
+     * @var ProtectionRuleValueType
      */
     public $Value;
 }

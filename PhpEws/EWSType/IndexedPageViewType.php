@@ -23,7 +23,7 @@ class IndexedPageViewType extends EWSType
     /**
      * BasePoint property
      *
-     * @var EWSType_IndexBasePointType
+     * @var IndexBasePointType
      */
     public $BasePoint;
 }

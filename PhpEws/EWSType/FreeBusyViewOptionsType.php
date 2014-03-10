@@ -16,7 +16,7 @@ class FreeBusyViewOptionsType extends EWSType
     /**
      * TimeWindow property
      *
-     * @var EWSType_Duration
+     * @var Duration
      */
     public $TimeWindow;
 
@@ -30,7 +30,7 @@ class FreeBusyViewOptionsType extends EWSType
     /**
      * RequestedView property
      *
-     * @var EWSType_FreeBusyViewType
+     * @var FreeBusyViewType
      */
     public $RequestedView;
 }

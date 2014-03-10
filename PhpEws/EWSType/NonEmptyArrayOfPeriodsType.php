@@ -19,7 +19,7 @@ class NonEmptyArrayOfPeriodsType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_PeriodType
+     * @var PeriodType
      */
     public $Period;
 }

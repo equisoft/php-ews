@@ -16,7 +16,7 @@ class DeleteAttachmentType extends EWSType
     /**
      * AttachmentIds property
      *
-     * @var EWSType_NonEmptyArrayOfRequestAttachmentIdsType
+     * @var NonEmptyArrayOfRequestAttachmentIdsType
      */
     public $AttachmentIds;
 }

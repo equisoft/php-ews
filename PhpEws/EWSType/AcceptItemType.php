@@ -18,7 +18,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -28,7 +28,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -37,7 +37,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -47,7 +47,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $CcRecipients;
 
@@ -57,7 +57,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -84,7 +84,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -93,7 +93,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Sender;
 
@@ -102,7 +102,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -113,7 +113,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ToRecipients;
 
@@ -122,7 +122,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -131,7 +131,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -140,7 +140,7 @@ class AcceptItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ReferenceItemId;
 }

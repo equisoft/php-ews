@@ -17,7 +17,7 @@ class RecurringDayTransitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_DayOfWeekType
+     * @var DayOfWeekType
      */
     public $DayOfWeek;
 
@@ -36,7 +36,7 @@ class RecurringDayTransitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_OccurrenceType
+     * @var OccurrenceType
      */
     public $Occurrence;
 
@@ -56,7 +56,7 @@ class RecurringDayTransitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_TransitionTargetType
+     * @var TransitionTargetType
      */
     public $To;
 }

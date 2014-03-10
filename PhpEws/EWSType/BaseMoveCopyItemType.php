@@ -16,14 +16,14 @@ class BaseMoveCopyItemType extends EWSType
     /**
      * ToFolderId property
      *
-     * @var EWSType_TargetFolderIdType
+     * @var TargetFolderIdType
      */
     public $ToFolderId;
 
     /**
      * ItemIds property
      *
-     * @var EWSType_NonEmptyArrayOfBaseItemIdsType
+     * @var NonEmptyArrayOfBaseItemIdsType
      */
     public $ItemIds;
 }

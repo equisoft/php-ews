@@ -23,14 +23,14 @@ class PostReplyItemBaseType extends EWSType
     /**
      * Body property
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
     /**
      * ReferenceItemId property
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ReferenceItemId;
 

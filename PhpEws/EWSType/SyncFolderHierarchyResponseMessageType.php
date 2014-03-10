@@ -30,7 +30,7 @@ class SyncFolderHierarchyResponseMessageType extends EWSType
     /**
      * Changes property
      *
-     * @var EWSType_SyncFolderHierarchyChangesType
+     * @var SyncFolderHierarchyChangesType
      */
     public $Changes;
 }

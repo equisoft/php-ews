@@ -26,7 +26,7 @@ class EmailAddressType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -35,7 +35,7 @@ class EmailAddressType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MailboxTypeType
+     * @var MailboxTypeType
      */
     public $MailboxType;
 
@@ -54,7 +54,7 @@ class EmailAddressType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RoutingTypeType
+     * @var RoutingTypeType
      */
     public $RoutingType;
 }

@@ -16,7 +16,7 @@ class ArrayOfUserIdType extends EWSType
     /**
      * UserId property
      *
-     * @var EWSType_UserIdType
+     * @var UserIdType
      */
     public $UserId;
 }

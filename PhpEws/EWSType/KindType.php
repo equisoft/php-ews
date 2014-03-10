@@ -10,7 +10,7 @@ namespace PhpEws\EWSType;
  *
  * @package php-ews\Enumerations
  *
- * @todo Rename to EWSType_TransitionKindType
+ * @todo Rename to TransitionKindType
  */
 class KindType extends EWSType
 {

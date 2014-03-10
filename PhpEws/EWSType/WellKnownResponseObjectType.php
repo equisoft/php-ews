@@ -16,63 +16,63 @@ class WellKnownResponseObjectType extends EWSType
     /**
      * ItemClass property
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
     /**
      * Sensitivity property
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
     /**
      * Body property
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
     /**
      * Attachments property
      *
-     * @var EWSType_NonEmptyArrayOfAttachmentsType
+     * @var NonEmptyArrayOfAttachmentsType
      */
     public $Attachments;
 
     /**
      * InternetMessageHeaders property
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
     /**
      * Sender property
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Sender;
 
     /**
      * ToRecipients property
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ToRecipients;
 
     /**
      * CcRecipients property
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $CcRecipients;
 
     /**
      * BccRecipients property
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -93,14 +93,14 @@ class WellKnownResponseObjectType extends EWSType
     /**
      * From property
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $From;
 
     /**
      * ReferenceItemId property
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ReferenceItemId;
 

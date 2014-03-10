@@ -16,7 +16,7 @@ class PostItemType extends EWSType
     /**
      * ConversationIndex property
      *
-     * @var EWSType_base64Binary
+     * @var base64Binary
      */
     public $ConversationIndex;
 
@@ -30,7 +30,7 @@ class PostItemType extends EWSType
     /**
      * From property
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $From;
 
@@ -51,7 +51,7 @@ class PostItemType extends EWSType
     /**
      * PostedTime property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      */
     public $PostedTime;
 
@@ -65,7 +65,7 @@ class PostItemType extends EWSType
     /**
      * Sender property
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Sender;
 }

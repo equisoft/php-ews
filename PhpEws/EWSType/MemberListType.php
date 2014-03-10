@@ -20,7 +20,7 @@ class MemberListType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_MemberType
+     * @var MemberType
      */
     public $Member;
 }

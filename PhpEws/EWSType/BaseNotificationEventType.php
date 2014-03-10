@@ -16,7 +16,7 @@ class BaseNotificationEventType extends EWSType
     /**
      * Watermark property
      *
-     * @var EWSType_WatermarkType
+     * @var WatermarkType
      */
     public $Watermark;
 }

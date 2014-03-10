@@ -17,7 +17,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $AssociatedCalendarItemId;
 
@@ -27,7 +27,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -37,7 +37,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -46,7 +46,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -56,7 +56,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -66,7 +66,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $CcRecipients;
 
@@ -75,7 +75,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ConversationId;
 
@@ -189,7 +189,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -198,7 +198,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -207,7 +207,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $From;
 
@@ -237,7 +237,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -256,7 +256,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -384,7 +384,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -396,7 +396,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -426,7 +426,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -438,7 +438,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -447,7 +447,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -456,7 +456,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -523,7 +523,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ReplyTo;
 
@@ -533,7 +533,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -542,7 +542,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ResponseTypeType
+     * @var ResponseTypeType
      */
     public $ResponseType;
 
@@ -551,7 +551,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Sender;
 
@@ -560,7 +560,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -591,7 +591,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ToRecipients;
 
@@ -610,7 +610,7 @@ class MeetingMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $UniqueBody;
 

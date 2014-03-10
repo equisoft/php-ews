@@ -16,14 +16,14 @@ class CreateManagedFolderRequestType extends EWSType
     /**
      * FolderNames property
      *
-     * @var EWSType_NonEmptyArrayOfFolderNamesType
+     * @var NonEmptyArrayOfFolderNamesType
      */
     public $FolderNames;
 
     /**
      * Mailbox property
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Mailbox;
 }

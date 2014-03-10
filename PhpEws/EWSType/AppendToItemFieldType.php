@@ -18,7 +18,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToExtendedFieldType
+     * @var PathToExtendedFieldType
      */
     public $ExtendedFieldURI;
 
@@ -27,7 +27,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToUnindexedFieldType
+     * @var PathToUnindexedFieldType
      */
     public $FieldURI;
 
@@ -36,7 +36,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PathToIndexedFieldType
+     * @var PathToIndexedFieldType
      */
     public $IndexedFieldURI;
 
@@ -45,7 +45,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemType
+     * @var ItemType
      */
     public $Item;
 
@@ -54,7 +54,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MessageType
+     * @var MessageType
      */
     public $Message;
 
@@ -63,7 +63,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CalendarItemType
+     * @var CalendarItemType
      */
     public $CalendarItem;
 
@@ -72,7 +72,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContactItemType
+     * @var ContactItemType
      */
     public $Contact;
 
@@ -81,7 +81,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DistributionListType
+     * @var DistributionListType
      */
     public $DistributionList;
 
@@ -90,7 +90,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingMessageType
+     * @var MeetingMessageType
      */
     public $MeetingMessage;
 
@@ -99,7 +99,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingRequestMessageType
+     * @var MeetingRequestMessageType
      */
     public $MeetingRequest;
 
@@ -108,7 +108,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingResponseMessageType
+     * @var MeetingResponseMessageType
      */
     public $MeetingResponse;
 
@@ -117,7 +117,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingCancellationMessageType
+     * @var MeetingCancellationMessageType
      */
     public $MeetingCancellation;
 
@@ -126,7 +126,7 @@ class AppendToItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TaskType
+     * @var TaskType
      */
     public $Task;
 }

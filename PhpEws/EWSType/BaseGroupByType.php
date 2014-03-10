@@ -16,7 +16,7 @@ class BaseGroupByType extends EWSType
     /**
      * Order property
      *
-     * @var EWSType_SortDirectionType
+     * @var SortDirectionType
      */
     public $Order;
 }

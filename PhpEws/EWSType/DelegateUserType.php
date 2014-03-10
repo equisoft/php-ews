@@ -18,7 +18,7 @@ class DelegateUserType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_UserIdType
+     * @var UserIdType
      */
     public $UserId;
 
@@ -27,7 +27,7 @@ class DelegateUserType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegatePermissionsType
+     * @var DelegatePermissionsType
      */
     public $DelegatePermissions;
 

@@ -28,7 +28,7 @@ class AttendeeType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Mailbox;
 
@@ -39,7 +39,7 @@ class AttendeeType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ResponseTypeType
+     * @var ResponseTypeType
      */
     public $ResponseType;
 }

@@ -16,7 +16,7 @@ class GetEventsResponseMessageType extends EWSType
     /**
      * Notification property
      *
-     * @var EWSType_NotificationType
+     * @var NotificationType
      */
     public $Notification;
 }

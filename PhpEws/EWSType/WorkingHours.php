@@ -16,14 +16,14 @@ class WorkingHours extends EWSType
     /**
      * TimeZone property
      *
-     * @var EWSType_SerializableTimeZone
+     * @var SerializableTimeZone
      */
     public $TimeZone;
 
     /**
      * WorkingPeriodArray property
      *
-     * @var EWSType_ArrayOfWorkingPeriod
+     * @var ArrayOfWorkingPeriod
      */
     public $WorkingPeriodArray;
 }

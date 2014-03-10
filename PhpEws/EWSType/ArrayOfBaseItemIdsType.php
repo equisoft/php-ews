@@ -16,7 +16,7 @@ class ArrayOfBaseItemIdsType extends EWSType
     /**
      * ItemId property
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 }

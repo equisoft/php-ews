@@ -32,7 +32,7 @@ class ProtectionRuleActionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ProtectionRuleArgumentType
+     * @var ProtectionRuleArgumentType
      */
     public $Argument;
 }

@@ -10,7 +10,7 @@ namespace PhpEws\EWSType;
  *
  * @package php-ews\Types
  *
- * @todo Extend EWSType_RecurrenceType.
+ * @todo Extend RecurrenceType.
  */
 class TaskRecurrenceType extends EWSType
 {
@@ -19,7 +19,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AbsoluteMonthlyRecurrencePatternType
+     * @var AbsoluteMonthlyRecurrencePatternType
      */
     public $AbsoluteMonthlyRecurrence;
 
@@ -28,7 +28,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AbsoluteYearlyRecurrencePatternType
+     * @var AbsoluteYearlyRecurrencePatternType
      */
     public $AbsoluteYearlyRecurrence;
 
@@ -38,7 +38,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DailyRecurrencePatternType
+     * @var DailyRecurrencePatternType
      */
     public $DailyRecurrence;
 
@@ -48,7 +48,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DailyRegeneratingPatternType
+     * @var DailyRegeneratingPatternType
      */
     public $DailyRegeneration;
 
@@ -60,7 +60,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EndDateRecurrenceRangeType
+     * @var EndDateRecurrenceRangeType
      */
     public $EndDateRecurrence;
 
@@ -70,7 +70,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MonthlyRegeneratingPatternType
+     * @var MonthlyRegeneratingPatternType
      */
     public $MonthlyRegeneration;
 
@@ -82,7 +82,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NoEndRecurrenceRangeType
+     * @var NoEndRecurrenceRangeType
      */
     public $NoEndRecurrence;
 
@@ -95,7 +95,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NumberedRecurrenceRangeType
+     * @var NumberedRecurrenceRangeType
      */
     public $NumberedRecurrence;
 
@@ -105,7 +105,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RelativeMonthlyRecurrencePatternType
+     * @var RelativeMonthlyRecurrencePatternType
      */
     public $RelativeMonthlyRecurrence;
 
@@ -114,7 +114,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RelativeYearlyRecurrencePatternType
+     * @var RelativeYearlyRecurrencePatternType
      */
     public $RelativeYearlyRecurrence;
 
@@ -124,7 +124,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_WeeklyRecurrencePatternType
+     * @var WeeklyRecurrencePatternType
      */
     public $WeeklyRecurrence;
 
@@ -134,7 +134,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_WeeklyRegeneratingPatternType
+     * @var WeeklyRegeneratingPatternType
      */
     public $WeeklyRegeneration;
 
@@ -144,7 +144,7 @@ class TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_YearlyRegeneratingPatternType
+     * @var YearlyRegeneratingPatternType
      */
     public $YearlyRegeneration;
 }

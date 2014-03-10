@@ -16,7 +16,7 @@ class DistinguishedGroupByType extends EWSType
     /**
      * StandardGroupBy property
      *
-     * @var EWSType_StandardGroupByType
+     * @var StandardGroupByType
      */
     public $StandardGroupBy;
 }

@@ -16,7 +16,7 @@ class ArrayOfGroupedItemsType extends EWSType
     /**
      * GroupedItems property
      *
-     * @var EWSType_GroupedItemsType
+     * @var GroupedItemsType
      */
     public $GroupedItems;
 }

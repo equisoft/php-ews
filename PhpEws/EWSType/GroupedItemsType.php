@@ -23,7 +23,7 @@ class GroupedItemsType extends EWSType
     /**
      * Items property
      *
-     * @var EWSType_ArrayOfRealItemsType
+     * @var ArrayOfRealItemsType
      */
     public $Items;
 }

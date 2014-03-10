@@ -18,7 +18,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType 
+     * @var ArrayOfAttachmentsType 
      */
     public $Attachments;
 
@@ -27,7 +27,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -37,7 +37,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -47,7 +47,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContactSourceType
+     * @var ContactSourceType
      */
     public $ContactSource;
 
@@ -56,7 +56,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ConversationId;
 
@@ -145,7 +145,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -154,7 +154,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -184,7 +184,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -203,7 +203,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -267,7 +267,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -277,7 +277,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -306,7 +306,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_MemberListType
+     * @var MemberListType
      */
     public $Members;
 
@@ -316,7 +316,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -326,7 +326,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -335,7 +335,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -344,7 +344,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -391,7 +391,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -400,7 +400,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -430,7 +430,7 @@ class DistributionListType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $UniqueBody;
 

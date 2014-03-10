@@ -16,7 +16,7 @@ class FreeBusyView extends EWSType
     /**
      * FreeBusyViewType property
      *
-     * @var EWSType_FreeBusyViewType
+     * @var FreeBusyViewType
      */
     public $FreeBusyViewType;
 
@@ -30,14 +30,14 @@ class FreeBusyView extends EWSType
     /**
      * CalendarEventArray property
      *
-     * @var EWSType_ArrayOfCalendarEvent
+     * @var ArrayOfCalendarEvent
      */
     public $CalendarEventArray;
 
     /**
      * WorkingHours property
      *
-     * @var EWSType_WorkingHours
+     * @var WorkingHours
      */
     public $WorkingHours;
 }

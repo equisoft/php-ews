@@ -16,7 +16,7 @@ class ResolveNamesResponseMessageType extends EWSType
     /**
      * ResolutionSet property
      *
-     * @var EWSType_ArrayOfResolutionType
+     * @var ArrayOfResolutionType
      */
     public $ResolutionSet;
 }

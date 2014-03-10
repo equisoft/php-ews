@@ -36,7 +36,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -56,7 +56,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -75,7 +75,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -84,7 +84,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Children;
 
@@ -94,7 +94,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Companies;
 
@@ -114,7 +114,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CompleteNameType
+     * @var CompleteNameType
      */
     public $CompleteName;
 
@@ -124,7 +124,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContactSourceType
+     * @var ContactSourceType
      */
     public $ContactSource;
 
@@ -133,7 +133,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ConversationId;
 
@@ -195,7 +195,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2010 SP2
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $DirectReports;
 
@@ -240,7 +240,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -249,7 +249,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EmailAddressDictionaryType
+     * @var EmailAddressDictionaryType
      */
     public $EmailAddresses;
 
@@ -258,7 +258,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -276,7 +276,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FileAsMappingType
+     * @var FileAsMappingType
      */
     public $FileAsMapping;
 
@@ -326,7 +326,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImAddressDictionaryType
+     * @var ImAddressDictionaryType
      */
     public $ImAddresses;
 
@@ -335,7 +335,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -363,7 +363,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -381,7 +381,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -393,7 +393,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -441,7 +441,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2010 SP2
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ManagerMailbox;
 
@@ -469,7 +469,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -479,7 +479,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2010 SP2
      *
-     * @var EWSType_ArrayOfBinaryType
+     * @var ArrayOfBinaryType
      */
     public $MSExchangeCertificate;
 
@@ -518,7 +518,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -527,7 +527,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PhoneNumberDictionaryType
+     * @var PhoneNumberDictionaryType
      */
     public $PhoneNumbers;
 
@@ -574,7 +574,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PhysicalAddressDictionaryType
+     * @var PhysicalAddressDictionaryType
      */
     public $PhysicalAddresses;
 
@@ -583,7 +583,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PhysicalAddressIndexType
+     * @var PhysicalAddressIndexType
      */
     public $PostalAddressIndex;
 
@@ -639,7 +639,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -648,7 +648,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -698,7 +698,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $UniqueBody;
 
@@ -707,7 +707,7 @@ class ContactItemType extends EWSType
      *
      * @since Exchange 2010 SP2
      *
-     * @var EWSType_ArrayOfBinaryType
+     * @var ArrayOfBinaryType
      */
     public $UserSMIMECertificate;
 

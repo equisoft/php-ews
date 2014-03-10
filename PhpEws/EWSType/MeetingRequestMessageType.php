@@ -27,7 +27,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAllItemsType
+     * @var NonEmptyArrayOfAllItemsType
      */
     public $AdjacentMeetings;
 
@@ -75,7 +75,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $AssociatedCalendarItemId;
 
@@ -85,7 +85,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -95,7 +95,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $BccRecipients;
 
@@ -104,7 +104,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $Body;
 
@@ -113,7 +113,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CalendarItemTypeType
+     * @var CalendarItemTypeType
      */
     public $CalendarItemType;
 
@@ -123,7 +123,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfStringsType
+     * @var ArrayOfStringsType
      */
     public $Categories;
 
@@ -133,7 +133,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $CcRecipients;
 
@@ -142,7 +142,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ConferenceTypeType
+     * @var ConferenceTypeType
      */
     public $ConferenceType;
 
@@ -160,7 +160,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAllItemsType
+     * @var NonEmptyArrayOfAllItemsType
      */
     public $ConflictingMeetings;
 
@@ -169,7 +169,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ConversationId;
 
@@ -258,7 +258,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfDeletedOccurrencesType
+     * @var NonEmptyArrayOfDeletedOccurrencesType
      */
     public $DeletedOccurrences;
 
@@ -305,7 +305,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -325,7 +325,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_TimeZoneDefinitionType
+     * @var TimeZoneDefinitionType
      */
     public $EndTimeZone;
 
@@ -334,7 +334,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -345,7 +345,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_OccurrenceInfoType
+     * @var OccurrenceInfoType
      */
     public $FirstOccurrence;
 
@@ -384,7 +384,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ImportanceChoicesType
+     * @var ImportanceChoicesType
      */
     public $Importance;
 
@@ -403,7 +403,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_LegacyFreeBusyType
+     * @var LegacyFreeBusyType
      */
     public $IntendedFreeBusyStatus;
 
@@ -413,7 +413,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfInternetHeadersType
+     * @var NonEmptyArrayOfInternetHeadersType
      */
     public $InternetMessageHeaders;
 
@@ -589,7 +589,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemClassType
+     * @var ItemClassType
      */
     public $ItemClass;
 
@@ -601,7 +601,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var ItemIdType
      */
     public $ItemId;
 
@@ -632,7 +632,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_OccurrenceInfoType
+     * @var OccurrenceInfoType
      */
     public $LastOccurrence;
 
@@ -641,7 +641,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_LegacyFreeBusyType
+     * @var LegacyFreeBusyType
      */
     public $LegacyFreeBusyStatus;
 
@@ -659,7 +659,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MeetingRequestTypeType
+     * @var MeetingRequestTypeType
      */
     public $MeetingRequestType;
 
@@ -677,7 +677,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_TimeZoneType
+     * @var TimeZoneType
      */
     public $MeetingTimeZone;
 
@@ -697,7 +697,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var MimeContentType
      */
     public $MimeContent;
 
@@ -709,7 +709,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfOccurrenceInfoType
+     * @var NonEmptyArrayOfOccurrenceInfoType
      */
     public $ModifiedOccurrences;
 
@@ -718,7 +718,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ResponseTypeType
+     * @var ResponseTypeType
      */
     public $MyResponseType;
 
@@ -736,7 +736,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAttendeesType
+     * @var NonEmptyArrayOfAttendeesType
      */
     public $OptionalAttendees;
 
@@ -745,7 +745,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Organizer;
 
@@ -768,7 +768,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var FolderIdType
      */
     public $ParentFolderId;
 
@@ -777,7 +777,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -786,7 +786,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -795,7 +795,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RecurrenceType
+     * @var RecurrenceType
      */
     public $Recurrence;
 
@@ -862,7 +862,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ReplyTo;
 
@@ -871,7 +871,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAttendeesType
+     * @var NonEmptyArrayOfAttendeesType
      */
     public $RequiredAttendees;
 
@@ -880,7 +880,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfAttendeesType
+     * @var NonEmptyArrayOfAttendeesType
      */
     public $Resources;
 
@@ -890,7 +890,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NonEmptyArrayOfResponseObjectsType
+     * @var NonEmptyArrayOfResponseObjectsType
      */
     public $ResponseObjects;
 
@@ -899,7 +899,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ResponseTypeType
+     * @var ResponseTypeType
      */
     public $ResponseType;
 
@@ -908,7 +908,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var SingleRecipientType
      */
     public $Sender;
 
@@ -917,7 +917,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SensitivityChoicesType
+     * @var SensitivityChoicesType
      */
     public $Sensitivity;
 
@@ -950,7 +950,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_TimeZoneDefinitionType
+     * @var TimeZoneDefinitionType
      */
     public $StartTimeZone;
 
@@ -979,7 +979,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfRecipientsType
+     * @var ArrayOfRecipientsType
      */
     public $ToRecipients;
 
@@ -998,7 +998,7 @@ class MeetingRequestMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var BodyType
      */
     public $UniqueBody;
 

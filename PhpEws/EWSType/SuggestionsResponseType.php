@@ -16,14 +16,14 @@ class SuggestionsResponseType extends EWSType
     /**
      * ResponseMessage property
      *
-     * @var EWSType_ResponseMessageType
+     * @var ResponseMessageType
      */
     public $ResponseMessage;
 
     /**
      * SuggestionDayResultArray property
      *
-     * @var EWSType_ArrayOfSuggestionDayResult
+     * @var ArrayOfSuggestionDayResult
      */
     public $SuggestionDayResultArray;
 }

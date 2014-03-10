@@ -17,7 +17,7 @@ class DelegatePermissionsType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateFolderPermissionLevelType
+     * @var DelegateFolderPermissionLevelType
      */
     public $CalendarFolderPermissionLevel;
 
@@ -26,7 +26,7 @@ class DelegatePermissionsType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateFolderPermissionLevelType
+     * @var DelegateFolderPermissionLevelType
      */
     public $TasksFolderPermissionLevel;
 
@@ -35,7 +35,7 @@ class DelegatePermissionsType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateFolderPermissionLevelType
+     * @var DelegateFolderPermissionLevelType
      */
     public $InboxFolderPermissionLevel;
 
@@ -44,7 +44,7 @@ class DelegatePermissionsType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateFolderPermissionLevelType
+     * @var DelegateFolderPermissionLevelType
      */
     public $ContactsFolderPermissionLevel;
 
@@ -53,7 +53,7 @@ class DelegatePermissionsType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateFolderPermissionLevelType
+     * @var DelegateFolderPermissionLevelType
      */
     public $NotesFolderPermissionLevel;
 
@@ -62,7 +62,7 @@ class DelegatePermissionsType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateFolderPermissionLevelType
+     * @var DelegateFolderPermissionLevelType
      */
     public $JournalFolderPermissionLevel;
 }

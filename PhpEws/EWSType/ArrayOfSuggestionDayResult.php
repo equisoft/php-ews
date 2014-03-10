@@ -16,7 +16,7 @@ class ArrayOfSuggestionDayResult extends EWSType
     /**
      * SuggestionDayResult property
      *
-     * @var EWSType_SuggestionDayResult
+     * @var SuggestionDayResult
      */
     public $SuggestionDayResult;
 }

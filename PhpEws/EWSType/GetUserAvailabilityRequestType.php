@@ -16,28 +16,28 @@ class GetUserAvailabilityRequestType extends EWSType
     /**
      * TimeZone property
      *
-     * @var EWSType_SerializableTimeZone
+     * @var SerializableTimeZone
      */
     public $TimeZone;
 
     /**
      * MailboxDataArray property
      *
-     * @var EWSType_ArrayOfMailboxData
+     * @var ArrayOfMailboxData
      */
     public $MailboxDataArray;
 
     /**
      * FreeBusyViewOptions property
      *
-     * @var EWSType_FreeBusyViewOptionsType
+     * @var FreeBusyViewOptionsType
      */
     public $FreeBusyViewOptions;
 
     /**
      * SuggestionsViewOptions property
      *
-     * @var EWSType_SuggestionsViewOptionsType
+     * @var SuggestionsViewOptionsType
      */
     public $SuggestionsViewOptions;
 }

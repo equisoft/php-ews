@@ -16,7 +16,7 @@ class WorkingPeriod extends EWSType
     /**
      * DayOfWeek property
      *
-     * @var EWSType_DaysOfWeekType
+     * @var DaysOfWeekType
      */
     public $DayOfWeek;
 

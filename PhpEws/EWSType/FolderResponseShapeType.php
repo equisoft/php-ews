@@ -16,14 +16,14 @@ class FolderResponseShapeType extends EWSType
     /**
      * BaseShape property
      *
-     * @var EWSType_DefaultShapeNamesType
+     * @var DefaultShapeNamesType
      */
     public $BaseShape;
 
     /**
      * AdditionalProperties property
      *
-     * @var EWSType_NonEmptyArrayOfPathsToElementType
+     * @var NonEmptyArrayOfPathsToElementType
      */
     public $AdditionalProperties;
 }

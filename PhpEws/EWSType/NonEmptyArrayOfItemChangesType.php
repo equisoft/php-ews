@@ -16,7 +16,7 @@ class NonEmptyArrayOfItemChangesType extends EWSType
     /**
      * ItemChange property
      *
-     * @var EWSType_ItemChangeType
+     * @var ItemChangeType
      */
     public $ItemChange;
 }

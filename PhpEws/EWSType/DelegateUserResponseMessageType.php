@@ -27,7 +27,7 @@ class DelegateUserResponseMessageType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_ResponseCodeType
+     * @var ResponseCodeType
      */
     public $ResponseCode;
 
@@ -55,7 +55,7 @@ class DelegateUserResponseMessageType extends EWSType
      *
      * @since Exchnage 2007 SP1
      *
-     * @var EWSType_DelegateUserType
+     * @var DelegateUserType
      */
     public $DelegateUser;
 }

@@ -44,21 +44,21 @@ class SuggestionsViewOptionsType extends EWSType
     /**
      * MinimumSuggestionQuality property
      *
-     * @var EWSType_SuggestionQuality
+     * @var SuggestionQuality
      */
     public $MinimumSuggestionQuality;
 
     /**
      * DetailedSuggestionsWindow property
      *
-     * @var EWSType_Duration
+     * @var Duration
      */
     public $DetailedSuggestionsWindow;
 
     /**
      * CurrentMeetingTime property
      *
-     * @var EWSType_dateTime
+     * @var dateTime
      */
     public $CurrentMeetingTime;
 

@@ -94,7 +94,7 @@ class ExchangeWebServices
     /**
      * Exchange impersonation
      *
-     * @var EWSType_ExchangeImpersonationType
+     * @var EWSType\ExchangeImpersonationType
      */
     protected $impersonation;
 
@@ -144,7 +144,7 @@ class ExchangeWebServices
     /**
      * Sets the impersonation property
      *
-     * @param EWSType_ExchangeImpersonationType $impersonation
+     * @param EWSType\ExchangeImpersonationType $impersonation
      */
     public function setImpersonation($impersonation)
     {

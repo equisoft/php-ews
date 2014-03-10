@@ -18,7 +18,7 @@ class PhysicalAddressDictionaryType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_PhysicalAddressDictionaryEntryType
+     * @var PhysicalAddressDictionaryEntryType
      */
     public $Entry;
 }

@@ -17,7 +17,7 @@ class EmailAddressDictionaryType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EmailAddressDictionaryEntryType
+     * @var EmailAddressDictionaryEntryType
      */
     public $Entry;
 }

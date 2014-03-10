@@ -16,21 +16,21 @@ class NonEmptyArrayOfAlternateIdsType extends EWSType
     /**
      * AlternateId property
      *
-     * @var EWSType_AlternateIdType
+     * @var AlternateIdType
      */
     public $AlternateId;
 
     /**
      * AlternatePublicFolderId property
      *
-     * @var EWSType_AlternatePublicFolderIdType
+     * @var AlternatePublicFolderIdType
      */
     public $AlternatePublicFolderId;
 
     /**
      * AlternatePublicFolderItemId property
      *
-     * @var EWSType_AlternatePublicFolderItemIdType
+     * @var AlternatePublicFolderItemIdType
      */
     public $AlternatePublicFolderItemId;
 }

@@ -30,7 +30,7 @@ class MemberType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var EmailAddressType
      */
     public $Mailbox;
 
@@ -41,7 +41,7 @@ class MemberType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_MemberStatusType
+     * @var MemberStatusType
      */
     public $Status;
 }

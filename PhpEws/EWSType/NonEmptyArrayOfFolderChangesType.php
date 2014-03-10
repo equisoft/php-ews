@@ -16,7 +16,7 @@ class NonEmptyArrayOfFolderChangesType extends EWSType
     /**
      * FolderChange property
      *
-     * @var EWSType_FolderChangeType
+     * @var FolderChangeType
      */
     public $FolderChange;
 }

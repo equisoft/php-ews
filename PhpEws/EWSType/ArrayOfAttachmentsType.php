@@ -18,7 +18,7 @@ class ArrayOfAttachmentsType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FileAttachmentType
+     * @var FileAttachmentType
      */
     public $FileAttachment;
 
@@ -27,7 +27,7 @@ class ArrayOfAttachmentsType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemAttachmentType
+     * @var ItemAttachmentType
      */
     public $ItemAttachment;
 }

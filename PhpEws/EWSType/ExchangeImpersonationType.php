@@ -17,7 +17,7 @@ class ExchangeImpersonationType extends EWSType
     /**
      * ConnectingSID property
      *
-     * @var EWSType_ConnectingSIDType
+     * @var ConnectingSIDType
      */
     public $ConnectingSID;
 }

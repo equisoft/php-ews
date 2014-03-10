@@ -16,7 +16,7 @@ class BaseResponseMessageType extends EWSType
     /**
      * ResponseMessages property
      *
-     * @var EWSType_ArrayOfResponseMessagesType
+     * @var ArrayOfResponseMessagesType
      */
     public $ResponseMessages;
 }

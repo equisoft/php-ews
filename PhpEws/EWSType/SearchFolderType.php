@@ -16,7 +16,7 @@ class SearchFolderType extends EWSType
     /**
      * SearchParameters property
      *
-     * @var EWSType_SearchParametersType
+     * @var SearchParametersType
      */
     public $SearchParameters;
 }

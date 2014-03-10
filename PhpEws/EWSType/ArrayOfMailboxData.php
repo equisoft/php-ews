@@ -16,7 +16,7 @@ class ArrayOfMailboxData extends EWSType
     /**
      * MailboxData property
      *
-     * @var EWSType_MailboxData
+     * @var MailboxData
      */
     public $MailboxData;
 }
