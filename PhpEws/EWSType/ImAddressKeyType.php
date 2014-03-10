@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the key for an instant messenger address.
- *
- * @package php-ews\Enumerations
  */
 class ImAddressKeyType extends EWSType
 {

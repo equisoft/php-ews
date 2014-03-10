@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies a delegate user or a user who has folder access permissions.
- *
- * @package php-ews\Types
  */
 class UserIdType extends EWSType
 {

@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents either a property or a constant value to be used when comparing
  * with another property.
- *
- * @package php-ews\Types
  */
 class FieldURIOrConstantType extends EWSType
 {

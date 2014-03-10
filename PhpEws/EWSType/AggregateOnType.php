@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents the property that is used to determine the order of grouped items
  * for a grouped FindItem result set.
- *
- * @package php-ews\Types
  */
 class AggregateOnType extends EWSType
 {

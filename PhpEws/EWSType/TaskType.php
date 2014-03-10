@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Definition of the TaskType type
- *
- * @package php-ews\Types
  */
 class TaskType extends EWSType
 {

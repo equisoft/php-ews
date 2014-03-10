@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the response object that is used to cancel a meeting.
- *
- * @package php-ews\Types
  */
 class CancelCalendarItemType extends EWSType
 {

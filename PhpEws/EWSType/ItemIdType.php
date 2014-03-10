@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Contains the unique identifier and change key of an item in the Exchange
  * store.
- *
- * @package php-ews\Types
  */
 class ItemIdType extends EWSType
 {

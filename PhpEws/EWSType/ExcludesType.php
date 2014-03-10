@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a bitwise mask of a specified property and a supplied value.
- *
- * @package php-ews\Types
  */
 class ExcludesType extends EWSType
 {

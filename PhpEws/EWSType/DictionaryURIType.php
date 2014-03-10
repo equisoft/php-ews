@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies the dictionary that contains the member to return.
- *
- * @package php-ews\Enumerations
  */
 class DictionaryURIType extends EWSType
 {

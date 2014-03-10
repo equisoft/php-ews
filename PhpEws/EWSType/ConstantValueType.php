@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies a constant value in a restriction.
- *
- * @package php-ews\Types
  */
 class ConstantValueType extends EWSType
 {

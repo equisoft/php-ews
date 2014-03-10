@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an array of time zone transitions.
- *
- * @package php-ews\Types
  */
 class ArrayOfTransitionsType extends EWSType
 {

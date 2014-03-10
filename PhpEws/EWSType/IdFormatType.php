@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Specifies the source format of the Id to be converted or the format of the Id
  * after conversion.
- *
- * @package php-ews\Enumerations
  */
 class IdFormatType extends EWSType
 {

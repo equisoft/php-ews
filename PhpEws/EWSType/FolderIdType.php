@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents the identifier of the parent folder that contains the item or
  * folder.
- *
- * @package php-ews\Types
  */
 class FolderIdType extends EWSType
 {

@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents an array of periods that define the time offset at different
  * stages of a time zone.
- *
- * @package php-ews\Types
  */
 class NonEmptyArrayOfPeriodsType extends EWSType
 {

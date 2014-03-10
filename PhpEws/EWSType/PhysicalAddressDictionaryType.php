@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a collection of physical addresses that are associated with a
  * contact.
- *
- * @package php-ews\Types
  */
 class PhysicalAddressDictionaryType extends EWSType
 {

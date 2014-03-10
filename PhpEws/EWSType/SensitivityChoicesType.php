@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Indicates the sensitivity level of an item.
- *
- * @package php-ews\Enumerations
  */
 class SensitivityChoicesType extends EWSType
 {

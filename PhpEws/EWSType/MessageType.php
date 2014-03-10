@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a Microsoft Exchange e-mail message.
- *
- * @package php-ews\Types
  */
 class MessageType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a reply to a post item.
- *
- * @package php-ews\Types
  */
 class PostReplyItemType extends EWSType
 {

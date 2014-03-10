@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Specifies that all child elements must match to evaluate to true.
- *
- * @package php-ews\Types
  */
 class ProtectionRuleAndType extends EWSType
 {

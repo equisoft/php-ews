@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents attendees and resources for a meeting.
- *
- * @package php-ews\Types
  */
 class AttendeeType extends EWSType
 {

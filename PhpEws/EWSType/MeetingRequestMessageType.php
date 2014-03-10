@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a meeting cancellation in the Exchange store.
- *
- * @package php-ews\Types
  */
 class MeetingRequestMessageType extends EWSType
 {

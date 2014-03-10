@@ -11,8 +11,6 @@ namespace PhpEws\EWSType;
  *
  * Or will return true if any of its children return true. Or must have two or
  * more children.
- *
- * @package php-ews\Types
  */
 class OrType extends EWSType
 {

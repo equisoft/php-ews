@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines how to construct what is displayed for a contact.
- *
- * @package php-ews\Enumerations
  */
 class FileAsMappingType extends EWSType
 {

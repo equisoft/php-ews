@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Describes a single physical address for a contact item.
- *
- * @package php-ews\Types
  */
 class PhysicalAddressDictionaryEntryType extends EWSType
 {

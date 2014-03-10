@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Describes the importance of an item or the aggregated importance of all items
  * in a conversation in the current folder.
- *
- * @package php-ews\Enumerations
  */
 class ImportanceChoicesType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the key for an email address.
- *
- * @package php-ews\Enumerations
  */
 class EmailAddressKeyType extends EWSType
 {

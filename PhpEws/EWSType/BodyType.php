@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Specifies the body of an item.
- *
- * @package php-ews\Types
  */
 class BodyType extends EWSType
 {

@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a search expression that returns true if the supplied property
  * exists on an item.
- *
- * @package php-ews\Types
  */
 class ExistsType extends EWSType
 {

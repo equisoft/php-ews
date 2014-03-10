@@ -1,9 +1,6 @@
 <?php
 /**
  * Definition of the IndividualAttendeeConflictData type
- *
- * @package php-ews
- * @subpackage Types
  */
 
 namespace PhpEws\EWSType;

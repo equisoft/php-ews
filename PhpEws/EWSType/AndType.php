@@ -11,8 +11,6 @@ namespace PhpEws\EWSType;
  *
  * The result of the AND operation is true if all the search expressions
  * contained within the And element are true.
- *
- * @package php-ews\Types
  */
 class AndType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a Tentative reply to a meeting request.
- *
- * @package php-ews\Types
  */
 class TentativelyAcceptItemType extends EWSType
 {

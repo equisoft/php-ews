@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a hexadecimal or decimal mask to be used during an Excludes
  * restriction operation.
- *
- * @package php-ews\Types
  */
 class ExcludesValueType extends EWSType
 {

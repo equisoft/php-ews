@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Describes an identifier to convert in a request and the results of a
  * converted identifier in the response.
- *
- * @package php-ews\Types
  */
 class AlternateIdType extends EWSType
 {

@@ -1,9 +1,6 @@
 <?php
 /**
  * Definition of the SyncFolderItemsReadFlagType type
- *
- * @package php-ews
- * @subpackage Types
  */
 
 namespace PhpEws\EWSType;

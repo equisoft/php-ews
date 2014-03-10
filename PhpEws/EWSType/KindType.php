@@ -7,8 +7,7 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the kind of a transition.
- *
- * @package php-ews\Enumerations
+
  *
  * @todo Rename to TransitionKindType
  */

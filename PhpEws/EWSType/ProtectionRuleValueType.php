@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies a single recipient or sender department.
- *
- * @package php-ews\Types
  */
 class ProtectionRuleValueType extends EWSType
 {

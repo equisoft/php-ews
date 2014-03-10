@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a collection of telephone numbers for a contact.
- *
- * @package php-ews\Types
  */
 class PhoneNumberDictionaryType extends EWSType
 {

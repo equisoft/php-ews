@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a collection of some of the Internet message headers that are
  * contained in an item in a mailbox.
- *
- * @package php-ews\Types
  */
 class NonEmptyArrayOfInternetHeadersType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a time zone.
- *
- * @package php-ews\Types
  */
 class TimeZoneType extends EWSType
 {

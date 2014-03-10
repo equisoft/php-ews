@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Specifies that any recipient of the e-mail message matches any of the
  * specified recipients in the child Value (ProtectionRuleValueType) elements.
- *
- * @package php-ews\Types
  */
 class ProtectionRuleRecipientIsType extends EWSType
 {

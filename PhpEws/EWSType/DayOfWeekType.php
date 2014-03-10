@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a day of the week.
- *
- * @package php-ews\Enumerations
  */
 class DayOfWeekType extends EWSType
 {

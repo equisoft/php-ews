@@ -7,8 +7,7 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a time zone transition.
- *
- * @package php-ews\Types
+
  *
  * @todo Alter AbsoluteDateTransitionType, RecurringDayTransitionType and
  * RecurringDateTransitionType to extend this class.

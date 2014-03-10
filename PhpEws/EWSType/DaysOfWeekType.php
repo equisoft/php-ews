@@ -7,8 +7,7 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents days of the week that are used in item recurrence patterns.
- *
- * @package php-ews\Enumerations
+
  *
  * @todo Make this an array type that seperates values by space in the
  * __toString() method.

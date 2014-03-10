@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents the client's rights based on the permission settings for an item
  * or folder.
- *
- * @package php-ews\Types
  */
 class EffectiveRightsType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the type of mailbox that is represented by an e-mail address.
- *
- * @package php-ews\Enumerations
  */
 class MailboxTypeType extends EWSType
 {

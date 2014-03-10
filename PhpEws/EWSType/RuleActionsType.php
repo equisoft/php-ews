@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents the set of actions that are available to be taken on a message
  * when conditions are fulfilled.
- *
- * @package php-ews\Types
  */
 class RuleActionsType extends EWSType
 {

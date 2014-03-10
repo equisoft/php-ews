@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an instant messaging (IM) address for a contact.
- *
- * @package php-ews\Types
  */
 class ImAddressDictionaryEntryType extends EWSType
 {

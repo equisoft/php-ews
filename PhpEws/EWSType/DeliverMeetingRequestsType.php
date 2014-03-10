@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Defines how meeting requests are handled between the delegate and the
  * principal.
- *
- * @package php-ews\Enumerations
  */
 class DeliverMeetingRequestsType extends EWSType
 {

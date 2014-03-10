@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies an extended MAPI property.
- *
- * @package php-ews\Types
  */
 class PathToExtendedFieldType extends EWSType
 {

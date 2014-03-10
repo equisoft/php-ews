@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the task type.
- *
- * @package php-ews\Enumerations
  */
 class TaskTypeType extends EWSType
 {

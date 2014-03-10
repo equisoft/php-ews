@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the occurrence of the day of the week in a month.
- *
- * @package php-ews\Enumerations
  */
 class OccurrenceType extends EWSType
 {

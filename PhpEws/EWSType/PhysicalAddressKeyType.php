@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the key for a physical address.
- *
- * @package php-ews\Enumerations
  */
 class PhysicalAddressKeyType extends EWSType
 {

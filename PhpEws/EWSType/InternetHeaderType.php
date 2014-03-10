@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents the Internet message header for a given header within a headers
  * collection.
- *
- * @package php-ews\Types
  */
 class InternetHeaderType extends EWSType
 {

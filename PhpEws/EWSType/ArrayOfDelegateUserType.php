@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Contains the identities of delegates to add to or update in a mailbox.
- *
- * @package php-ews\Types
  */
 class ArrayOfDelegateUserType extends EWSType
 {

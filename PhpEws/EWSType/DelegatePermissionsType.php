@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Contains the delegate permission-level settings for a user.
- *
- * @package php-ews\Types
  */
 class DelegatePermissionsType extends EWSType
 {

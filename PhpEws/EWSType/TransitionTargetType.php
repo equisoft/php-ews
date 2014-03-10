@@ -9,8 +9,6 @@ namespace PhpEws\EWSType;
  * Specifies the target of the time zone transition.
  *
  * The target is either a time zone period or a group of time zone transitions.
- *
- * @package php-ews\Types
  */
 class TransitionTargetType extends EWSType
 {

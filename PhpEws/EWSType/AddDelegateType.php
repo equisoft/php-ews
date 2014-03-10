@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines a request to add delegates to a mailbox.
- *
- * @package php-ews\Types
  */
 class AddDelegateType extends EWSType
 {

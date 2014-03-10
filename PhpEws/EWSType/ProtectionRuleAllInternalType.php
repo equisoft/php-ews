@@ -10,8 +10,6 @@ namespace PhpEws\EWSType;
  * sender's organization.
  *
  * This element must be empty.
- *
- * @package php-ews\Types
  */
 class ProtectionRuleAllInternalType extends EWSType
 {

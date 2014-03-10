@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Contains the response messages for an Exchange Web Services delegate
  * management request.
- *
- * @package php-ews\Types
  */
 class ArrayOfDelegateUserResponseMessageType extends EWSType
 {

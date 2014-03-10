@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Describes a relative yearly recurrence pattern.
- *
- * @package php-ews\Types
  */
 class RelativeYearlyRecurrencePatternType extends EWSType
 {

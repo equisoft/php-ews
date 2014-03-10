@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies to whom external Out of Office (OOF) messages are sent..
- *
- * @package php-ews\Enumerations
  */
 class ExternalAudience extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies frequently referenced properties by URI.
- *
- * @package php-ews\Types
  */
 class PathToUnindexedFieldType extends EWSType
 {

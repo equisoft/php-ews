@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a generic item in the Exchange store.
- *
- * @package php-ews\Types
  */
 class ItemType extends EWSType
 {

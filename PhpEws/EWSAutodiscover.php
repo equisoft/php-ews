@@ -1,9 +1,6 @@
 <?php
 /**
  * Exchange Web Services Autodiscover implementation.
- *
- * @package php-ews
- * @subpackage Auto Discovery
  */
 
 namespace PhpEws;

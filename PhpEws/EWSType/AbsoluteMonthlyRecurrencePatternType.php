@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a monthly recurrence pattern.
- *
- * @package php-ews\Types
  */
 class AbsoluteMonthlyRecurrencePatternType extends EWSType
 {

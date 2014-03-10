@@ -1,9 +1,6 @@
 <?php
 /**
  * Definition of the CalendarItemCreateOrDeleteOperationType type.
- *
- * @package php-ews
- * @subpackage Types
  */
 
 namespace PhpEws\EWSType;

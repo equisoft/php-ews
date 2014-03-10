@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Specifies the status of the appointment.
- *
- * @package php-ews\Enumerations
  */
 class EWS_AppointmentStateType extends EWSType
 {

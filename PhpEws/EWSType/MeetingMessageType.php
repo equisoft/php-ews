@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a meeting in the Exchange store.
- *
- * @package php-ews\Types
  */
 class MeetingMessageType extends EWSType
 {

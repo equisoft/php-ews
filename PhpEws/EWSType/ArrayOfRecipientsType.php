@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an array of recipients of an item.
- *
- * @package php-ews\Types
  */
 class ArrayOfRecipientsType extends EWSType
 {

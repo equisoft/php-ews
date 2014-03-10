@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies the delegate in a delegate access scenario.
- *
- * @package php-ews\Types
  */
 class SingleRecipientType extends EWSType
 {

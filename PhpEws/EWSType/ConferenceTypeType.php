@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the type of conferencing that is performed with a calendar item.
- *
- * @package php-ews\Enumerations
  */
 class ConferenceTypeType extends EWSType
 {

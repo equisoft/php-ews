@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Describes the frequency, in months, of which task is regenerated.
- *
- * @package php-ews\Types
  */
 class MonthlyRegeneratingPatternType extends EWSType
 {

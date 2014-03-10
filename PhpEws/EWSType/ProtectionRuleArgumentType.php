@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Specifies an argument to be passed to an action.
- *
- * @package php-ews\Types
  */
 class ProtectionRuleArgumentType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the well-known property set IDs for extended MAPI properties.
- *
- * @package php-ews\Enumerations
  */
 class DistinguishedPropertySetIdType extends EWSType
 {

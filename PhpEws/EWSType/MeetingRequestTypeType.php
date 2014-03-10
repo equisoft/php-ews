@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Describes the type of a meeting request.
- *
- * @package php-ews\Enumerations
  */
 class MeetingRequestTypeType extends EWSType
 {

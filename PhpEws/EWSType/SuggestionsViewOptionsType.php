@@ -1,9 +1,6 @@
 <?php
 /**
  * Definition of the SuggestionsViewOptionsType type
- *
- * @package php-ews
- * @subpackage Types
  */
 
 namespace PhpEws\EWSType;

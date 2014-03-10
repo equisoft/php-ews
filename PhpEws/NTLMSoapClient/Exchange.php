@@ -2,9 +2,6 @@
 /**
  * Handles Soap communication with the Exchnage server using NTLM
  * authentication
- *
- * @package php-ews
- * @subpackage NTLM
  */
 
 namespace PhpEws\NTLMSoapClient;

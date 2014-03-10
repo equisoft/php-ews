@@ -20,9 +20,6 @@
  *
  * @link http://rabaix.net/en/articles/2008/03/13/using-soap-php-with-ntlm-authentication
  * @author Thomas Rabaix
- *
- * @package php-ews
- * @subpackage NTLM
  */
 
 namespace PhpEws;

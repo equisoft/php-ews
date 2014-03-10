@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a time zone transition that occurs on a specific date each year.
- *
- * @package php-ews\Types
  */
 class RecurringDateTransitionType extends EWSType
 {

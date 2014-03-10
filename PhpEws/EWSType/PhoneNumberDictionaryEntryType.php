@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Definition of the PhoneNumberDictionaryEntryType type
- *
- * @package php-ews\Types
  */
 class PhoneNumberDictionaryEntryType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an e-mail address.
- *
- * @package php-ews\Types
  */
 class EmailAddressType extends EWSType
 {

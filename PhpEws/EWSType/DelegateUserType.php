@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Identifies a single delegate to add or update in a mailbox or a delegate
  * returned in a delegate management response.
- *
- * @package php-ews\Types
  */
 class DelegateUserType extends EWSType
 {

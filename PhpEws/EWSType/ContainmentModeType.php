@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies the boundaries of a search.
- *
- * @package php-ews\Enumerations
  */
 class ContainmentModeType extends EWSType
 {

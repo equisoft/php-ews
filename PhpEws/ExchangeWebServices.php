@@ -1,8 +1,6 @@
 <?php
 /**
  * Base class of the Exchange Web Services application.
- *
- * @package php-ews
  */
 
 namespace PhpEws;

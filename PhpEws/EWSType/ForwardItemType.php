@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an Exchange store item to forward to recipients.
- *
- * @package php-ews\Types
  */
 class ForwardItemType extends EWSType
 {

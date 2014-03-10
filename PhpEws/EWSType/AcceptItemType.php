@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an Accept reply to a meeting request.
- *
- * @package php-ews\Types
  */
 class AcceptItemType extends EWSType
 {

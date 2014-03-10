@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the key for a phone number.
- *
- * @package php-ews\Enumerations
  */
 class PhoneNumberKeyType extends EWSType
 {

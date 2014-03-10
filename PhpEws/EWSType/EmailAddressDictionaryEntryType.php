@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a single e-mail address for a contact.
- *
- * @package php-ews\Types
  */
 class EmailAddressDictionaryEntryType extends EWSType
 {

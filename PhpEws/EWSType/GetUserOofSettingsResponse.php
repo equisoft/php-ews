@@ -1,9 +1,6 @@
 <?php
 /**
  * Definition of the GetUserOofSettingsResponse type
- *
- * @package php-ews
- * @subpackage Types
  */
 
 namespace PhpEws\EWSType;

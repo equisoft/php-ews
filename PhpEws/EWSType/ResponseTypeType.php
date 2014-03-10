@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies the type of a response that is received.
- *
- * @package php-ews\Enumerations
  */
 class ResponseTypeType extends EWSType
 {

@@ -3,9 +3,6 @@
  * The MultipleOperandBooleanExpressionType element is the base element for
  * derived elements that represent a restriction formed by two or more Boolean
  * operands.
- *
- * @package php-ews
- * @subpackage Types
  */
 
 namespace PhpEws\EWSType;

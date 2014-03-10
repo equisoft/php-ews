@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a time zone transition that occurs on a specific date and at a
  * specific time.
- *
- * @package php-ews\Types
  */
 class AbsoluteDateTransitionType extends EWSType
 {

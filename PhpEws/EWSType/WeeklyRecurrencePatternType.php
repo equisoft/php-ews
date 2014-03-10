@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Describes a weekly recurrence pattern.
- *
- * @package php-ews\Types
  */
 class WeeklyRecurrencePatternType extends EWSType
 {

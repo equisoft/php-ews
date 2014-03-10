@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a member of a distribution list.
- *
- * @package php-ews\Types
  */
 class MemberType extends EWSType
 {

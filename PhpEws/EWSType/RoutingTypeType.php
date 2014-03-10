@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the routing protocol for a recipient.
- *
- * @package php-ews\Enumerations
  */
 class RoutingTypeType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a collection of values for an extended property.
- *
- * @package php-ews\Types
  */
 class NonEmptyArrayOfPropertyValuesType extends EWSType
 {

@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a collection of all the response objects that are associated with
  * an item in the Exchange store.
- *
- * @package php-ews\Types
  */
 class NonEmptyArrayOfResponseObjectsType extends EWSType
 {

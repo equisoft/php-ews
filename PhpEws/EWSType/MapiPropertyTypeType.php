@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the property type of a property tag.
- *
- * @package php-ews\Enumerations
  */
 class MapiPropertyTypeType extends EWSType
 {

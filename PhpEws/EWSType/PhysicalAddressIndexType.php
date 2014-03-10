@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the display types for physical addresses.
- *
- * @package php-ews\Enumerations
  */
 class PhysicalAddressIndexType extends EWSType
 {

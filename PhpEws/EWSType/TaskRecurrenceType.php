@@ -7,8 +7,7 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the recurrence pattern for recurring tasks.
- *
- * @package php-ews\Types
+
  *
  * @todo Extend RecurrenceType.
  */

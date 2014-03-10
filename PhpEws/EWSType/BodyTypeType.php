@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Specifies the type of an item body.
- *
- * @package php-ews\Enumerations
  */
 class BodyTypeType extends EWSType
 {

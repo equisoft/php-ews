@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the message class of an item.
- *
- * @package php-ews\Enumerations
  */
 class ItemClassType extends EWSType
 {

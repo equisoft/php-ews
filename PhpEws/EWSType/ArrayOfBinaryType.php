@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a value that encodes a contact's certificate.
- *
- * @package php-ews\Types
  */
 class ArrayOfBinaryType extends EWSType
 {

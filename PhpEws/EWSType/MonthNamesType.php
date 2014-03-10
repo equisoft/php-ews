@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Describes the month when a yearly recurring item occurs.
- *
- * @package php-ews\Enumerations
  */
 class MonthNamesType extends EWSType
 {

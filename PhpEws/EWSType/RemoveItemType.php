@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a response object that is used to remove a meeting item when a
  * MeetingCancellation message is received.
- *
- * @package php-ews\Types
  */
 class RemoveItemType extends EWSType {
     /**

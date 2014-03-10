@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies extended MAPI properties on folders and items.
- *
- * @package php-ews\Types
  */
 class ExtendedPropertyType extends EWSType
 {

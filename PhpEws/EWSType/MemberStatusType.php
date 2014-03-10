@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the status of a distribution list member on the server.
- *
- * @package php-ews\Enumerations
  */
 class MemberStatusType extends EWSType
 {

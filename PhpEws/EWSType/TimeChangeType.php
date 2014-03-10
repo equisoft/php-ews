@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the date and time when a time change occurs.
- *
- * @package php-ews\Types
  */
 class TimeChangeType extends EWSType
 {

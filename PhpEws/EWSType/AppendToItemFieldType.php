@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Identifies data to append to a single property of an item during an
  * UpdateItem operation.
- *
- * @package php-ews\Types
  */
 class AppendToItemFieldType extends EWSType
 {

@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a search expression that determines whether a given property
  * contains the supplied constant string value.
- *
- * @package php-ews\Types
  */
 class ContainsExpressionType extends EWSType
 {

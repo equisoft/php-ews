@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents the native Multipurpose Internet Mail Extensions (MIME) stream of
  * an object that is represented in base64Binary format.
- *
- * @package php-ews\Types
  */
 class MimeContentType extends EWSType
 {

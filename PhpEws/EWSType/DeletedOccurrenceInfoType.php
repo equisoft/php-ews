@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a deleted occurrence of a recurring calendar item.
- *
- * @package php-ews\Types
  */
 class DeletedOccurrenceInfoType extends EWSType
 {

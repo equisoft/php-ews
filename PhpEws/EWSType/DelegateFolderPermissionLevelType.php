@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Contains the permissions for a default folder.
- *
- * @package php-ews\Enumerations
  */
 class DelegateFolderPermissionLevelType extends EWSType
 {

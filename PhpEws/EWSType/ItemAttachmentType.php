@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an Exchange item that is attached to another Exchange item.
- *
- * @package php-ews\Types
  */
 class ItemAttachmentType extends EWSType
 {

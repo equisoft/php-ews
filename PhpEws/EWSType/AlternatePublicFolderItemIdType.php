@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Describes a public folder item identifier to convert to another identifier
  * format.
- *
- * @package php-ews\Types
  */
 class AlternatePublicFolderItemIdType extends EWSType
 {

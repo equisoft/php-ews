@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Contains the items or files that are attached to an item in the Exchange
  * store.
- *
- * @package php-ews\Types
  */
 class NonEmptyArrayOfAttachmentsType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the type of a calendar item.
- *
- * @package php-ews\Enumerations
  */
 class CalendarItemTypeType extends EWSType
 {

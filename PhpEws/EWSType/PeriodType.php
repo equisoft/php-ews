@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Defines the name, time offset, and unique identifier for a specific stage of
  * the time zone.
- *
- * @package php-ews\Types
  */
 class PeriodType extends EWSType
 {

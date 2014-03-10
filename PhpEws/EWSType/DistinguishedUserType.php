@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies Anonymous and Default user accounts for delegate access.
- *
- * @package php-ews\Enumerations
  */
 class DistinguishedUserType extends EWSType
 {

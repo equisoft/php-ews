@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an Exchange calendar item.
- *
- * @package php-ews\Types
  */
 class CalendarItemType extends ItemType
 {

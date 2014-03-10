@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Contains the action to perform on a conversation specified by a
  * ConversationId.
- *
- * @package php-ews\Enumerations
  */
 class ConversationActionTypeType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Used to suppress read receipts.
- *
- * @package php-ews\Types
  */
 class SuppressReadReceiptType extends EWSType
 {

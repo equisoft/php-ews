@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents an occurrence of a recurring calendar item.
- *
- * @package php-ews\Types
  */
 class OccurrenceInfoType extends EWSType
 {

@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents a search expression that negates the Boolean value of the search
  * expression that it contains.
- *
- * @package php-ews\Types
  */
 class NotType extends EWSType
 {

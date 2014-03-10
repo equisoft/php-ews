@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Rpresents the status of a delegated task.
- *
- * @package php-ews\Enumerations
  */
 class TaskDelegateStateType extends EWSType
 {

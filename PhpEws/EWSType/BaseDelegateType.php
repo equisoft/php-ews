@@ -1,9 +1,6 @@
 <?php
 /**
  * Definition of the BaseDelegateType type
- *
- * @package php-ews
- * @subpackage Types
  */
 
 namespace PhpEws\EWSType;

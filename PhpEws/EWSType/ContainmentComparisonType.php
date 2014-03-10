@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Determines whether a search ignores cases and spaces.
- *
- * @package php-ews\Enumerations
  */
 class ContainmentComparisonType extends EWSType
 {

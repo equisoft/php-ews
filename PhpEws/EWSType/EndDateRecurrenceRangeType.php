@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Describes the start date and the end date of an item recurrence pattern.
- *
- * @package php-ews\Types
  */
 class EndDateRecurrenceRangeType extends EWSType
 {

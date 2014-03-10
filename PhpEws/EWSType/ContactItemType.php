@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a contact item in the Exchange store.
- *
- * @package php-ews\Types
  */
 class ContactItemType extends EWSType
 {

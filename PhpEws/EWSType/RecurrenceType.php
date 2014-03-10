@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Defines the recurrence pattern for calendar items and meeting requests.
- *
- * @package php-ews\Types
  */
 class RecurrenceType extends EWSType
 {

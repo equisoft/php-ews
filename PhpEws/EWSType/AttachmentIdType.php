@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies an item or file attachment.
- *
- * @package php-ews\Types
  */
 class AttachmentIdType extends EWSType
 {

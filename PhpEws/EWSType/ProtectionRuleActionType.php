@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Identifies what action must be executed if the condition part of a rule
  * passes.
- *
- * @package php-ews\Types
  */
 class ProtectionRuleActionType extends EWSType
 {

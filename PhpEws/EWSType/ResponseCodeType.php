@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Provides status information about a request.
- *
- * @package php-ews\Enumerations
  */
 class ResponseCodeType extends EWSType
 {

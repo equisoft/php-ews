@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Represents the intended status for a calendar item that is associated with a
  * meeting request.
- *
- * @package php-ews\Enumerations
  */
 class LegacyFreeBusyType extends EWSType
 {

@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies items of any type for numerous requests.
- *
- * @package php-ews\Types
  */
 class NonEmptyArrayOfAllItemsType extends EWSType
 {

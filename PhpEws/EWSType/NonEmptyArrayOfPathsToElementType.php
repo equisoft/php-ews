@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Definition of the NonEmptyArrayOfPathsToElementType type
- *
- * @package php-ews\Types
  */
 class NonEmptyArrayOfPathsToElementType extends EWSType
 {

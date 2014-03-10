@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the complete name of a contact.
- *
- * @package php-ews\Types
  */
 class CompleteNameType extends EWSType
 {

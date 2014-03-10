@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents the status of a task item.
- *
- * @package php-ews\Enumerations
  */
 class TaskStatusType extends EWSType
 {

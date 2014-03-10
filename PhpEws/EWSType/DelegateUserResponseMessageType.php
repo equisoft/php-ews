@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * contains the response message for a single delegate user.
- *
- * @package php-ews\Types
  */
 class DelegateUserResponseMessageType extends EWSType
 {

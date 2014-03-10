@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Represents a collection of strings.
- *
- * @package php-ews\Types
  */
 class ArrayOfStringsType extends EWSType
 {

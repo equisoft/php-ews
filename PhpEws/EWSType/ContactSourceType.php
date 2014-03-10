@@ -8,8 +8,6 @@ namespace PhpEws\EWSType;
 /**
  * Describes whether the contact is located in the Exchange store or Active
  * Directory Domain Services (AD DS).
- *
- * @package php-ews\Enumerations
  */
 class ContactSourceType extends EWSType
 {

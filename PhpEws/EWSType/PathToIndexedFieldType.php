@@ -7,8 +7,6 @@ namespace PhpEws\EWSType;
 
 /**
  * Identifies individual members of a dictionary.
- *
- * @package php-ews\Types
  */
 class PathToIndexedFieldType extends EWSType
 {
