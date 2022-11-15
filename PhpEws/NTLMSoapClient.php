@@ -25,6 +25,7 @@
 namespace PhpEws;
 
 use SoapClient;
+use SoapHeader;
 
 /**
  * Soap Client using Microsoft's NTLM Authentication.
@@ -51,6 +52,103 @@ class NTLMSoapClient extends SoapClient
      * @var int $verifyhost Boolean, accepts 2 (default), 1 (deprecated) or 0
      */
     protected $verifyhost = 2;
+
+    /**
+     * Username for authentication on the exchnage server
+     *
+     * @var string
+     */
+    protected $user;
+
+    /**
+     * Password for authentication on the exchnage server
+     *
+     * @var string
+     */
+    protected $password;
+
+    protected $__last_request_headers;
+
+    /**
+     * An array of headers for us to store or use. Since not all requests use all headers (DeleteItem and SyncItems
+     * don't allow you to pass a Timezone for example), we need to be able to smartly decide what headers to include
+     * and exclude from a request. Until we have propper selection (an array of all known operations and what headers
+     * are allowed for example), this seems like a decent solution for storing the headers before we decide if they
+     * belong in the request or not)
+     *
+     * @var array
+     */
+    protected $ewsHeaders = array(
+        'version' => null,
+        'impersonation' => null,
+        'timezone' => null
+    );
+
+    /**
+     * Constructor
+     *
+     * @param string $wsdl
+     * @param array $options
+     */
+    public function __construct($wsdl, $options)
+    {
+        // Verify that a user name and password were entered.
+        if (empty($options['user']) || empty($options['password'])) {
+            throw new EWSException('A username and password is required.');
+        }
+
+        // Set the username and password properties.
+        $this->user = $options['user'];
+        $this->password = $options['password'];
+
+
+        // If a version was set then add it to the headers.
+        if (!empty($options['version'])) {
+            $this->ewsHeaders['version'] = new SoapHeader(
+                'http://schemas.microsoft.com/exchange/services/2006/types',
+                'RequestServerVersion Version="'.$options['version'].'"'
+            );
+        }
+
+        // If impersonation was set then add it to the headers.
+        if (!empty($options['impersonation'])) {
+            $this->ewsHeaders['impersonation'] = new SoapHeader(
+                'http://schemas.microsoft.com/exchange/services/2006/types',
+                'ExchangeImpersonation',
+                $options['impersonation']
+            );
+        }
+
+        parent::__construct($wsdl, $options);
+    }
+
+    #[\ReturnTypeWillChange]
+    public function __call($name, $args)
+    {
+        $this->__setSoapHeaders(null);
+
+        $headers = array(
+            $this->ewsHeaders['version'],
+            $this->ewsHeaders['impersonation'],
+        );
+
+        $headers = array_filter($headers, function ($header) {
+            return $header instanceof SoapHeader;
+        });
+
+        $this->__setSoapHeaders($headers);
+        return parent::__call($name, $args);
+    }
+
+    /**
+     * Returns the response code from the last request
+     *
+     * @return integer
+     */
+    public function getResponseCode()
+    {
+        return curl_getinfo($this->ch, CURLINFO_HTTP_CODE);
+    }
 
     /**
      * Performs a SOAP request
@@ -85,7 +183,9 @@ class NTLMSoapClient extends SoapClient
         curl_setopt($this->ch, CURLOPT_POSTFIELDS, $request);
         curl_setopt($this->ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
         curl_setopt($this->ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC | CURLAUTH_NTLM);
-        curl_setopt($this->ch, CURLOPT_USERPWD, $this->user.':'.$this->password);
+
+        curl_setopt($this->ch, CURLOPT_USERPWD, $this->user.':'. $this->password);
+
 
         $response = curl_exec($this->ch);
 
@@ -96,7 +196,7 @@ class NTLMSoapClient extends SoapClient
             );
         }
 
-        return $response;
+        return (string)$response;
     }
 
     /**
@@ -106,9 +206,10 @@ class NTLMSoapClient extends SoapClient
      *
      * @return string the last soap request headers
      */
+    #[\ReturnTypeWillChange]
     public function __getLastRequestHeaders()
     {
-        return implode('n', $this->__last_request_headers) . "\n";
+        return implode('n', $this->__last_request_headers)."\n";
     }
 
     /**

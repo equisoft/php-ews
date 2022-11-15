@@ -5,7 +5,9 @@
 
 namespace PhpEws;
 
+use PhpEws\EWSType\EWSType;
 use PhpEws\NTLMSoapClient\Exchange;
+use stdClass;
 
 /**
  * Base class of the Exchange Web Services application.
@@ -99,7 +101,7 @@ class ExchangeWebServices
     /**
      * SOAP client used to make the request
      *
-     * @var NTLMSoapClientExchange
+     * @var Exchange
      */
     protected $soap;
 
@@ -134,9 +136,9 @@ class ExchangeWebServices
     /**
      * Constructor for the ExchangeWebServices class
      *
-     * @param string $server
-     * @param string $username
-     * @param string $password
+     * @param string|null $server
+     * @param string|null $username
+     * @param string|null $password
      * @param string $version one of the ExchangeWebServices::VERSION_* constants
      */
     public function __construct(
@@ -732,7 +734,7 @@ class ExchangeWebServices
     /**
      * Initializes the SoapClient object to make a request
      *
-     * @return NTLMSoapClientExchange
+     * @return Exchange
      */
     protected function initializeSoapClient()
     {
@@ -757,7 +759,7 @@ class ExchangeWebServices
      * @throws EWSException
      *
      * @param stdClass $response
-     * @return EWSType
+     * @return EWSType|stdClass
      *
      * @todo Map the response to a real object.
      */

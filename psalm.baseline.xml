@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="4.30.0@d0bc6e25d89f649e4f36a534f330f8bb4643dd69">
+  <file src="PhpEws/EWSAutodiscover.php">
+    <ArgumentTypeCoercion occurrences="1">
+      <code>$xml</code>
+    </ArgumentTypeCoercion>
+  </file>
+  <file src="PhpEws/EWSType/AggregateOnType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>AggregateType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/AppendToFolderFieldType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>TasksFolderType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ArrayOfAttendeeConflictData.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>TooBigGroupAttendeeConflictData</code>
+      <code>UnknownAttendeeConflictData</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ArrayOfFoldersType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>TasksFolderType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/BaseNotificationEventType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>WatermarkType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/BasePermissionType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>PermissionActionType</code>
+      <code>PermissionActionType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/BaseSubscriptionRequestType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>WatermarkType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/CalendarItemType.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$Attachments</code>
+    </NonInvariantDocblockPropertyType>
+    <UndefinedDocblockClass occurrences="1">
+      <code>AppointmentStateType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/CalendarPermissionType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>CalendarPermissionLevelType</code>
+      <code>CalendarPermissionReadAccessType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ChangeDescriptionType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>BasePathToElementType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/CreateItemType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>MessageDispositionType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/DeleteItemType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>AffectedTaskOccurrencesType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/DistinguishedGroupByType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>StandardGroupByType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/DistributionListType.php">
+    <InvalidDocblock occurrences="1">
+      <code>public $LastModifiedTime;</code>
+    </InvalidDocblock>
+  </file>
+  <file src="PhpEws/EWSType/ExcludesValueType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>ExcludesAttributeType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/FieldOrderType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>BasePathToElementType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/FreeBusyView.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>FreeBusyViewType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/FreeBusyViewOptionsType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>FreeBusyViewType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/GetEventsType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>SubscriptionIdType</code>
+      <code>WatermarkType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/IndexedPageViewType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>IndexBasePointType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/MailboxData.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>MeetingAttendeeType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/MeetingRequestMessageType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>boolea</code>
+      <code>unknown</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/MoveItemType.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>EWSType_DistinguishedFolderIdType</code>
+      <code>EWSType_NonEmptyArrayOfBaseItemIdsType</code>
+      <code>EWSType_TargetFolderIdType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/NonEmptyArrayOfFolderChangeDescriptionsType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>DeleteFolderFieldType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/NonEmptyArrayOfFoldersType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>TasksFolderType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/NonEmptyArrayOfItemChangeDescriptionsType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>DeleteItemFieldType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/NonEmptyArrayOfNotificationEventTypesType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>NotificationEventTypeType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/NotificationType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>SubscriptionIdType</code>
+      <code>WatermarkType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/OccurrenceItemIdType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>DerivedItemIdType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/PathToExceptionFieldType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>ExceptionPropertyURIType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/PermissionType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>PermissionLevelType</code>
+      <code>PermissionReadAccessType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/PostItemType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>base64Binary</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ProxySecurityContextType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>base64Binary</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/PullSubscriptionRequestType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SubscriptionTimeoutType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/PushSubscriptionRequestType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SubscriptionStatusFrequencyType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/RecurringMasterItemIdType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>DerivedItemIdType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ReplyBody.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>UNKNOWN</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/RequestServerVersion.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>ExchangeVersionType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ResolveNamesType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>NonEmptyStringType</code>
+      <code>ResolveNamesSearchScopeType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ResponseCodeType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>const MULTI_LEGACY_MAILBOX_ACCESS = 'ErrorMultiLegacyMailboxAccess';</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/ResponseMessageType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>ResponseClassType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SearchParametersType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SearchFolderTraversalType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SendNotificationResultType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SubscriptionStatusType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SetFolderFieldType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>TasksFolderType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SidAndAttributesType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>unsignedInt</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SubscribeResponseMessageType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>SubscriptionIdType</code>
+      <code>WatermarkType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/Suggestion.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SuggestionQuality</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SuggestionDayResult.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SuggestionQuality</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SuggestionsViewOptionsType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SuggestionQuality</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SyncFolderHierarchyCreateOrUpdateType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>TasksFolderType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/SyncFolderItemsType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>MaxSyncChangesReturnedType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/TwoOperandExpressionType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>BasePathToElementType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/UnsubscribeType.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>SubscriptionIdType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/UpdateItemType.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>ConflictResolutionType</code>
+      <code>MessageDispositionType</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/EWSType/UserOofSettings.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>OofState</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="PhpEws/ExchangeWebServices.php">
+    <InvalidReturnStatement occurrences="2">
+      <code>$this-&gt;initializeSoapClient()</code>
+      <code>$this-&gt;processResponse($response)</code>
+    </InvalidReturnStatement>
+    <InvalidReturnType occurrences="2">
+      <code>GetRoomListsResponse</code>
+      <code>NTLMSoapClientExchange</code>
+    </InvalidReturnType>
+    <PossiblyNullArgument occurrences="3">
+      <code>$password</code>
+      <code>$server</code>
+      <code>$username</code>
+    </PossiblyNullArgument>
+    <UndefinedDocblockClass occurrences="74">
+      <code>AddDelegateResponseMessageType</code>
+      <code>AddDelegateType</code>
+      <code>ConvertIdResponseType</code>
+      <code>ConvertIdType</code>
+      <code>CopyFolderResponseType</code>
+      <code>CopyFolderType</code>
+      <code>CopyItemResponseType</code>
+      <code>CopyItemType</code>
+      <code>CreateAttachmentResponseType</code>
+      <code>CreateAttachmentType</code>
+      <code>CreateFolderResponseType</code>
+      <code>CreateFolderType</code>
+      <code>CreateItemResponseType</code>
+      <code>CreateItemType</code>
+      <code>CreateManagedFolderRequestType</code>
+      <code>CreateManagedFolderResponseType</code>
+      <code>DeleteAttachmentResponseType</code>
+      <code>DeleteAttachmentType</code>
+      <code>DeleteFolderResponseType</code>
+      <code>DeleteFolderType</code>
+      <code>DeleteItemResponseType</code>
+      <code>DeleteItemType</code>
+      <code>EWSType\ExchangeImpersonationType</code>
+      <code>EWSType\ExchangeImpersonationType</code>
+      <code>EWS_FindFolderResponseType</code>
+      <code>EWS_FindFolderType</code>
+      <code>ExpandDLResponseType</code>
+      <code>ExpandDLType</code>
+      <code>FindItemResponseType</code>
+      <code>FindItemType</code>
+      <code>GetAttachmentResponseType</code>
+      <code>GetAttachmentType</code>
+      <code>GetDelegateResponseMessageType</code>
+      <code>GetDelegateType</code>
+      <code>GetEventsResponseType</code>
+      <code>GetEventsType</code>
+      <code>GetFolderResponseType</code>
+      <code>GetFolderType</code>
+      <code>GetItemResponseType</code>
+      <code>GetItemType</code>
+      <code>GetRoomListsResponse</code>
+      <code>GetServerTimeZonesResponseType</code>
+      <code>GetServerTimeZonesType</code>
+      <code>GetUserAvailabilityRequestType</code>
+      <code>GetUserAvailabilityResponseType</code>
+      <code>GetUserOofSettingsRequest</code>
+      <code>GetUserOofSettingsResponse</code>
+      <code>MoveFolderResponseType</code>
+      <code>MoveFolderType</code>
+      <code>MoveItemResponseType</code>
+      <code>MoveItemType</code>
+      <code>NTLMSoapClientExchange</code>
+      <code>RemoveDelegateResponseMessageType</code>
+      <code>RemoveDelegateType</code>
+      <code>ResolveNamesResponseType</code>
+      <code>ResolveNamesType</code>
+      <code>SendItemResponseType</code>
+      <code>SendItemType</code>
+      <code>SetUserOofSettingsRequest</code>
+      <code>SetUserOofSettingsResponse</code>
+      <code>SubscribeResponseType</code>
+      <code>SubscribeType</code>
+      <code>SyncFolderHierarchyResponseType</code>
+      <code>SyncFolderHierarchyType</code>
+      <code>SyncFolderItemsResponseType</code>
+      <code>SyncFolderItemsType</code>
+      <code>UnsubscribeResponseType</code>
+      <code>UnsubscribeType</code>
+      <code>UpdateDelegateResponseMessageType</code>
+      <code>UpdateDelegateType</code>
+      <code>UpdateFolderResponseType</code>
+      <code>UpdateFolderType</code>
+      <code>UpdateItemResponseType</code>
+      <code>UpdateItemType</code>
+    </UndefinedDocblockClass>
+  </file>
+</files>

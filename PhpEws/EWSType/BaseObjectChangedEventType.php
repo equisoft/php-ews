@@ -13,7 +13,7 @@ class BaseObjectChangedEventType extends EWSType
     /**
      * TimeStamp property
      *
-     * @var dateTime
+     * @var string dateTime
      */
     public $TimeStamp;
 

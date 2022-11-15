@@ -13,7 +13,7 @@ class Suggestion extends EWSType
     /**
      * MeetingTime property
      *
-     * @var dateTime
+     * @var string dateTime
      */
     public $MeetingTime;
 

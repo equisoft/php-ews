@@ -144,6 +144,8 @@ class EWSAutodiscover
      */
     protected $skip_ssl_verification = false;
 
+    public $last_response;
+
     /**
      * An associative array of response headers that resulted from the
      * last request. Keys are lowercased for easy checking.
@@ -230,7 +232,7 @@ class EWSAutodiscover
      * Execute the full discovery chain of events in the correct sequence
      * until a valid response is received, or all methods have failed.
      *
-     * @return An AUTODISCOVERED_VIA_* constant or FALSE on failure.
+     * @return int|false An AUTODISCOVERED_VIA_* constant or FALSE on failure.
      */
     public function discover()
     {
@@ -283,7 +285,7 @@ class EWSAutodiscover
      * Parse the hex ServerVersion value and return a valid
      * ExchangeWebServices::VERSION_* constant.
      *
-     * @return string|boolean A known version constant, or FALSE if it could not
+     * @return string|false A known version constant, or FALSE if it could not
      * be determined.
      *
      * @link http://msdn.microsoft.com/en-us/library/bb204122(v=exchg.140).aspx
@@ -297,24 +299,20 @@ class EWSAutodiscover
             $svbinary = '0'.$svbinary;
         }
 
-        $majorversion = base_convert(substr($svbinary, 4, 6), 2, 10);
-        $minorversion = base_convert(substr($svbinary, 10, 6), 2, 10);
-        $buildversion = base_convert(substr($svbinary, 17, 15), 2, 10);
+        $majorversion = (int)base_convert(substr($svbinary, 4, 6), 2, 10);
+        $minorversion = (int)base_convert(substr($svbinary, 10, 6), 2, 10);
+        $buildversion = (int)base_convert(substr($svbinary, 17, 15), 2, 10);
 
         if ($majorversion == 8) {
             switch ($minorversion) {
                 case 0:
                     return ExchangeWebServices::VERSION_2007;
-                    break;
                 case 1:
                     return ExchangeWebServices::VERSION_2007_SP1;
-                    break;
                 case 2:
                     return ExchangeWebServices::VERSION_2007_SP2;
-                    break;
                 case 3:
                     return ExchangeWebServices::VERSION_2007_SP3;
-                    break;
                 default:
                     return ExchangeWebServices::VERSION_2007;
             }
@@ -387,7 +385,7 @@ class EWSAutodiscover
         }
 
         if ($server) {
-            if ($version === null) {
+            if (!$version) {
                 // EWS class default.
                 $version = ExchangeWebServices::VERSION_2007;
             }
@@ -421,7 +419,7 @@ class EWSAutodiscover
      * Perform an NTLM authenticated HTTPS POST to the top-level
      * domain of the email address.
      *
-     * @return An AUTODISCOVERED_VIA_* constant or FALSE on failure.
+     * @return int|false An AUTODISCOVERED_VIA_* constant or FALSE on failure.
      */
     public function tryTLD()
     {
@@ -438,7 +436,7 @@ class EWSAutodiscover
      * Perform an NTLM authenticated HTTPS POST to the 'autodiscover'
      * subdomain of the email address' TLD.
      *
-     * @return An AUTODISCOVERED_VIA_* constant or FALSE on failure.
+     * @return int|false An AUTODISCOVERED_VIA_* constant or FALSE on failure.
      */
     public function trySubdomain()
     {
@@ -455,7 +453,7 @@ class EWSAutodiscover
      * Perform an unauthenticated HTTP GET in an attempt to get redirected
      * via 302 to the correct location to perform the HTTPS POST.
      *
-     * @return An AUTODISCOVERED_VIA_* constant or FALSE on failure.
+     * @return int|false An AUTODISCOVERED_VIA_* constant or FALSE on failure.
      */
     public function trySubdomainUnauthenticatedGet()
     {
@@ -501,7 +499,7 @@ class EWSAutodiscover
      * Attempt to retrieve the autodiscover host from an SRV DNS record.
      *
      * @link http://support.microsoft.com/kb/940881
-     * @return self::AUTODISCOVERED_VIA_SRV_RECORD or false
+     * @return int|false self::AUTODISCOVERED_VIA_SRV_RECORD or false
      */
     public function trySRVRecord()
     {

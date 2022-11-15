@@ -48,7 +48,7 @@ class PostItemType extends EWSType
     /**
      * PostedTime property
      *
-     * @var dateTime
+     * @var string dateTime
      */
     public $PostedTime;
 

@@ -13,7 +13,7 @@ class SuggestionDayResult extends EWSType
     /**
      * Date property
      *
-     * @var dateTime
+     * @var string dateTime
      */
     public $Date;
 

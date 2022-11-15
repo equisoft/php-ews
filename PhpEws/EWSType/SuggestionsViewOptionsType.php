@@ -55,7 +55,7 @@ class SuggestionsViewOptionsType extends EWSType
     /**
      * CurrentMeetingTime property
      *
-     * @var dateTime
+     * @var string dateTime
      */
     public $CurrentMeetingTime;
 
