@@ -24,6 +24,7 @@
 
 namespace PhpEws;
 
+use CurlHandle;
 use SoapClient;
 use SoapHeader;
 
@@ -35,7 +36,7 @@ class NTLMSoapClient extends SoapClient
     /**
      * cURL resource used to make the SOAP request
      *
-     * @var resource
+     * @var CurlHandle
      */
     protected $ch;
 
@@ -150,20 +151,13 @@ class NTLMSoapClient extends SoapClient
         return curl_getinfo($this->ch, CURLINFO_HTTP_CODE);
     }
 
-    /**
-     * Performs a SOAP request
-     *
-     * @link http://php.net/manual/en/function.soap-soapclient-dorequest.php
-     *
-     * @param string $request the xml soap request
-     * @param string $location the url to request
-     * @param string $action the soap action.
-     * @param integer $version the soap version
-     * @param integer $one_way
-     * @return string the xml soap response.
-     */
-    public function __doRequest($request, $location, $action, $version, $one_way = 0)
-    {
+    public function __doRequest(
+        string $request,
+        string $location,
+        string $action,
+        int $version,
+        bool $oneWay = false
+    ): ?string {
         $headers = array(
             'Method: POST',
             'Connection: Keep-Alive',
